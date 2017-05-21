@@ -1,0 +1,6 @@
+[debug] aars in subprojects: Set()
+[debug] Excluding testing dependency: com.android.support.test:runner:0.5:androidTest
+[debug] Excluding testing dependency: com.android.support.test:exposed-instrumentation-api-publish:0.5:androidTest
+[debug] Excluding testing dependency: com.android.support.test.espresso:espresso-core:2.2.2:androidTest
+[debug] Excluding testing dependency: com.android.support.test:rules:0.5:androidTest
+[debug] Excluding testing dependency: com.android.support.test.espresso:espresso-idling-resource:2.2.2:androidTest

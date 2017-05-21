@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="default"
+		module="tyron2$sbt_2.10"
+		revision="0.1-SNAPSHOT"
+		status="integration"
+		publication="20170522013740"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-sbt" name="sbt" rev="0.13.15" conf="default->default(compile)"/>
+		<dependency org="org.scala-android" name="sbt-android" rev="1.7.7" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13"/>
+		<dependency org="org.ow2.asm" name="asm-all" rev="5.0.4" conf="default->default(compile)"/>
+		<dependency org="org.javassist" name="javassist" rev="3.20.0-GA" conf="default->default(compile)"/>
+		<dependency org="com.hanhuy.sbt" name="bintray-update-checker_2.10" rev="0.2" conf="default->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.6" conf="default->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.6/"/>
+		<dependency org="io.argonaut" name="argonaut_2.10" rev="6.1a" conf="default->default(compile)" info.apiURL="http://argonaut.io/scaladocs/"/>
+		<dependency org="org.scalaz" name="scalaz-core_2.10" rev="7.2.2" conf="default->default(compile)"/>
+		<dependency org="com.github.julien-truffaut" name="monocle-core_2.10" rev="1.2.1" conf="default->default(compile)" info.apiURL="https://julien-truffaut.github.io/Monocle/api/"/>
+		<dependency org="com.github.julien-truffaut" name="monocle-macro_2.10" rev="1.2.1" conf="default->default(compile)" info.apiURL="https://julien-truffaut.github.io/Monocle/api/"/>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.6" conf="default->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.6/"/>
+		<dependency org="org.typelevel" name="macro-compat_2.10" rev="1.1.0" conf="default->default(compile)"/>
+		<dependency org="org.scalamacros" name="quasiquotes_2.10" rev="2.1.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.build" name="builder" rev="2.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.build" name="builder-model" rev="2.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools" name="annotations" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.build" name="builder-test-api" rev="2.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.ddms" name="ddmlib" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools" name="common" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="com.google.guava" name="guava" rev="18.0" conf="default->default(compile)"/>
+		<dependency org="net.sf.kxml" name="kxml2" rev="2.3.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools" name="sdklib" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.layoutlib" name="layoutlib-api" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="com.intellij" name="annotations" rev="12.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools" name="dvlib" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools" name="repository" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="org.apache.commons" name="commons-compress" rev="1.8.1" conf="default->default(compile)"/>
+		<dependency org="com.google.jimfs" name="jimfs" rev="1.1" conf="default->default(compile)"/>
+		<dependency org="com.google.code.gson" name="gson" rev="2.2.4" conf="default->default(compile)"/>
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.1.1" conf="default->default(compile)"/>
+		<dependency org="org.apache.httpcomponents" name="httpcore" rev="4.1" conf="default->default(compile)"/>
+		<dependency org="commons-logging" name="commons-logging" rev="1.1.1" conf="default->default(compile)"/>
+		<dependency org="commons-codec" name="commons-codec" rev="1.4" conf="default->default(compile)"/>
+		<dependency org="org.apache.httpcomponents" name="httpmime" rev="4.1" conf="default->default(compile)"/>
+		<dependency org="com.android.tools" name="sdk-common" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="org.bouncycastle" name="bcpkix-jdk15on" rev="1.51" conf="default->default(compile)"/>
+		<dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="1.51" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.build" name="manifest-merger" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.jack" name="jack-api" rev="0.11.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.jill" name="jill-api" rev="0.10.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.analytics-library" name="protos" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="com.google.protobuf" name="protobuf-java" rev="2.5.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.analytics-library" name="shared" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.analytics-library" name="tracker" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="com.squareup" name="javawriter" rev="2.5.0" conf="default->default(compile)"/>
+		<dependency org="org.ow2.asm" name="asm" rev="5.0.4" conf="default->default(compile)"/>
+		<dependency org="org.ow2.asm" name="asm-tree" rev="5.0.4" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.build" name="gradle-core" rev="2.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.lint" name="lint" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.lint" name="lint-checks" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.lint" name="lint-api" rev="25.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.external.lombok" name="lombok-ast" rev="0.2.3" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.external.com-intellij" name="uast" rev="145.597.4" conf="default->default(compile)"/>
+		<dependency org="org.ow2.asm" name="asm-analysis" rev="5.0.4" conf="default->default(compile)"/>
+		<dependency org="org.eclipse.jdt.core.compiler" name="ecj" rev="4.5.1" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.build" name="transform-api" rev="2.0.0-deprecated-use-gradle-api" conf="default->default(compile)"/>
+		<dependency org="com.android.tools.build" name="gradle-api" rev="2.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.databinding" name="compilerCommon" rev="2.2.0" conf="default->default(compile)"/>
+		<dependency org="com.android.databinding" name="baseLibrary" rev="2.2.0" conf="default->default(compile)"/>
+		<dependency org="org.antlr" name="antlr4" rev="4.5.3" conf="default->default(compile)"/>
+		<dependency org="commons-io" name="commons-io" rev="2.4" conf="default->default(compile)"/>
+		<dependency org="com.googlecode.juniversalchardet" name="juniversalchardet" rev="1.0.3" conf="default->default(compile)"/>
+		<dependency org="org.ow2.asm" name="asm-commons" rev="5.0.4" conf="default->default(compile)"/>
+		<dependency org="org.jacoco" name="org.jacoco.core" rev="0.7.5.201505241946" conf="default->default(compile)"/>
+		<dependency org="org.ow2.asm" name="asm-debug-all" rev="5.0.1" conf="default->default(compile)"/>
+		<dependency org="org.jacoco" name="org.jacoco.report" rev="0.7.5.201505241946" conf="default->default(compile)"/>
+		<dependency org="net.sf.jopt-simple" name="jopt-simple" rev="4.9" conf="default->default(compile)"/>
+		<dependency org="org.antlr" name="antlr" rev="3.5.2" conf="default->default(compile)"/>
+		<dependency org="org.antlr" name="antlr-runtime" rev="3.5.2" conf="default->default(compile)"/>
+		<dependency org="org.antlr" name="ST4" rev="4.0.8" conf="default->default(compile)"/>
+		<dependency org="net.orfjackal.retrolambda" name="retrolambda" rev="2.3.0" conf="default->default(compile)"/>
+	</dependencies>
+</ivy-module>

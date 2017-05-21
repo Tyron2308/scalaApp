@@ -1,5 +1,9 @@
-target/
-project/project
-bin/
-local.properties
-proguard-sbt.txt
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:2.3.2"
+    }
+}
