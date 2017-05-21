@@ -23,6 +23,6 @@
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_STRING" value="-bootclasspath C:\Android\sdk\platforms\android-25\android.jar -g" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-bootclasspath C:\Users\Julien\AppData\Local\Android\Sdk\platforms\android-25\android.jar -g" />
   </component>
 </project>

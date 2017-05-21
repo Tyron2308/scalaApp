@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="tyron2_2.11"
+		revision="0.1-SNAPSHOT"
+		conf="androidTest"
+		confs="compile, runtime, test, provided, optional, androidTest, android-internal, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170520002433"/>
+	<dependencies>
+		<module organisation="com.android.support.test.espresso" name="espresso-core">
+			<revision name="2.2.2" status="release" pubdate="20170331221251" resolver="android libraries" artresolver="android libraries" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<metadata-artifact status="no" details="" size="2203" time="0" location="C:\Users\Julien\.ivy2\cache\com.android.support.test.espresso\espresso-core\ivy-2.2.2.xml" searched="true" original-local-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\espresso\espresso-core\2.2.2\espresso-core-2.2.2.pom" origin-is-local="true" origin-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\espresso\espresso-core\2.2.2\espresso-core-2.2.2.pom"/>
+				<caller organisation="default" name="tyron2_2.11" conf="androidTest, compile, runtime" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="espresso-core" type="aar" ext="aar" status="no" details="" size="2360206" time="0" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\espresso\espresso-core\2.2.2\espresso-core-2.2.2.aar">
+						<origin-location is-local="true" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\espresso\espresso-core\2.2.2\espresso-core-2.2.2.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.annotation" name="javax.annotation-api">
+			<revision name="1.2" status="release" pubdate="20130426193829" resolver="public" artresolver="public" homepage="http://jcp.org/en/jsr/detail?id=250" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html"/>
+				<metadata-artifact status="successful" details="" size="13432" time="179" location="C:\Users\Julien\.ivy2\cache\javax.annotation\javax.annotation-api\ivy-1.2.xml" searched="true" original-local-location="C:\Users\Julien\.ivy2\cache\javax.annotation\javax.annotation-api\ivy-1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom"/>
+				<caller organisation="com.android.support.test.espresso" name="espresso-core" conf="default, compile, runtime, master" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="2.2.2"/>
+				<artifacts>
+					<artifact name="javax.annotation-api" type="jar" ext="jar" status="successful" details="" size="26366" time="298" location="C:\Users\Julien\.ivy2\cache\javax.annotation\javax.annotation-api\jars\javax.annotation-api-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="2.0.1" status="release" pubdate="20120730001759" resolver="public" artresolver="public" homepage="http://findbugs.sourceforge.net/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="965" time="136" location="C:\Users\Julien\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-2.0.1.xml" searched="true" original-local-location="C:\Users\Julien\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom"/>
+				<caller organisation="com.android.support.test.espresso" name="espresso-core" conf="default, compile, runtime, master" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="2.2.2"/>
+				<artifacts>
+					<artifact name="jsr305" type="jar" ext="jar" status="successful" details="" size="31866" time="525" location="C:\Users\Julien\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-2.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-integration">
+			<revision name="1.3" status="release" pubdate="20120709231046" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="1264" time="141" location="C:\Users\Julien\.ivy2\cache\org.hamcrest\hamcrest-integration\ivy-1.3.xml" searched="true" original-local-location="C:\Users\Julien\.ivy2\cache\org.hamcrest\hamcrest-integration\ivy-1.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.pom"/>
+				<caller organisation="com.android.support.test.espresso" name="espresso-core" conf="default, compile, runtime, master" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="2.2.2"/>
+				<artifacts>
+					<artifact name="hamcrest-integration" type="jar" ext="jar" status="successful" details="" size="4820" time="214" location="C:\Users\Julien\.ivy2\cache\org.hamcrest\hamcrest-integration\jars\hamcrest-integration-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support.test.espresso" name="espresso-idling-resource">
+			<revision name="2.2.2" status="release" pubdate="20170331221250" resolver="android libraries" artresolver="android libraries" homepage="" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<metadata-artifact status="no" details="" size="459" time="0" location="C:\Users\Julien\.ivy2\cache\com.android.support.test.espresso\espresso-idling-resource\ivy-2.2.2.xml" searched="true" original-local-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\espresso\espresso-idling-resource\2.2.2\espresso-idling-resource-2.2.2.pom" origin-is-local="true" origin-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\espresso\espresso-idling-resource\2.2.2\espresso-idling-resource-2.2.2.pom"/>
+				<caller organisation="com.android.support.test.espresso" name="espresso-core" conf="default, compile, runtime, master" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="2.2.2"/>
+				<artifacts>
+					<artifact name="espresso-idling-resource" type="aar" ext="aar" status="no" details="" size="4917" time="0" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\espresso\espresso-idling-resource\2.2.2\espresso-idling-resource-2.2.2.aar">
+						<origin-location is-local="true" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\espresso\espresso-idling-resource\2.2.2\espresso-idling-resource-2.2.2.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-library">
+			<revision name="1.3" status="release" pubdate="20120709230858" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="820" time="121" location="C:\Users\Julien\.ivy2\cache\org.hamcrest\hamcrest-library\ivy-1.3.xml" searched="true" original-local-location="C:\Users\Julien\.ivy2\cache\org.hamcrest\hamcrest-library\ivy-1.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom"/>
+				<caller organisation="com.android.support.test.espresso" name="espresso-core" conf="default, compile, runtime, master" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="2.2.2"/>
+				<caller organisation="org.hamcrest" name="hamcrest-integration" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.3"/>
+				<artifacts>
+					<artifact name="hamcrest-library" type="jar" ext="jar" status="successful" details="" size="53070" time="300" location="C:\Users\Julien\.ivy2\cache\org.hamcrest\hamcrest-library\jars\hamcrest-library-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject">
+			<revision name="1" status="release" pubdate="20091014013500" resolver="public" artresolver="public" homepage="http://code.google.com/p/atinject/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="612" time="124" location="C:\Users\Julien\.ivy2\cache\javax.inject\javax.inject\ivy-1.xml" searched="true" original-local-location="C:\Users\Julien\.ivy2\cache\javax.inject\javax.inject\ivy-1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="com.android.support.test.espresso" name="espresso-core" conf="default, compile, runtime, master" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="2.2.2"/>
+				<artifacts>
+					<artifact name="javax.inject" type="jar" ext="jar" status="successful" details="" size="2497" time="122" location="C:\Users\Julien\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support.test" name="rules">
+			<revision name="0.5" status="release" pubdate="20170331221251" resolver="android libraries" artresolver="android libraries" homepage="" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<metadata-artifact status="no" details="" size="668" time="0" location="C:\Users\Julien\.ivy2\cache\com.android.support.test\rules\ivy-0.5.xml" searched="true" original-local-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\rules\0.5\rules-0.5.pom" origin-is-local="true" origin-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\rules\0.5\rules-0.5.pom"/>
+				<caller organisation="com.android.support.test.espresso" name="espresso-core" conf="default, compile, runtime, master" rev="0.5" rev-constraint-default="0.5" rev-constraint-dynamic="0.5" callerrev="2.2.2"/>
+				<artifacts>
+					<artifact name="rules" type="aar" ext="aar" status="no" details="" size="35419" time="0" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\rules\0.5\rules-0.5.aar">
+						<origin-location is-local="true" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\rules\0.5\rules-0.5.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.squareup" name="javawriter">
+			<revision name="2.1.1" status="release" pubdate="20130724082323" resolver="public" artresolver="public" homepage="http://github.com/square/javawriter/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2881" time="233" location="C:\Users\Julien\.ivy2\cache\com.squareup\javawriter\ivy-2.1.1.xml" searched="true" original-local-location="C:\Users\Julien\.ivy2\cache\com.squareup\javawriter\ivy-2.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/javawriter/2.1.1/javawriter-2.1.1.pom"/>
+				<caller organisation="com.android.support.test.espresso" name="espresso-core" conf="default, compile, runtime, master" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="2.2.2"/>
+				<artifacts>
+					<artifact name="javawriter" type="jar" ext="jar" status="successful" details="" size="11911" time="203" location="C:\Users\Julien\.ivy2\cache\com.squareup\javawriter\jars\javawriter-2.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/squareup/javawriter/2.1.1/javawriter-2.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support.test" name="runner">
+			<revision name="0.5" status="release" pubdate="20170331221250" resolver="android libraries" artresolver="android libraries" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="6">
+				<metadata-artifact status="no" details="" size="1052" time="0" location="C:\Users\Julien\.ivy2\cache\com.android.support.test\runner\ivy-0.5.xml" searched="true" original-local-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\runner\0.5\runner-0.5.pom" origin-is-local="true" origin-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\runner\0.5\runner-0.5.pom"/>
+				<caller organisation="com.android.support.test.espresso" name="espresso-core" conf="default, compile, runtime, master" rev="0.5" rev-constraint-default="0.5" rev-constraint-dynamic="0.5" callerrev="2.2.2"/>
+				<caller organisation="default" name="tyron2_2.11" conf="androidTest, compile, runtime" rev="0.5" rev-constraint-default="0.5" rev-constraint-dynamic="0.5" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="com.android.support.test" name="rules" conf="compile, runtime" rev="0.5" rev-constraint-default="0.5" rev-constraint-dynamic="0.5" callerrev="0.5"/>
+				<artifacts>
+					<artifact name="runner" type="aar" ext="aar" status="no" details="" size="120212" time="0" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\runner\0.5\runner-0.5.aar">
+						<origin-location is-local="true" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\runner\0.5\runner-0.5.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support.test" name="exposed-instrumentation-api-publish">
+			<revision name="0.5" status="release" pubdate="20170331221250" resolver="android libraries" artresolver="android libraries" homepage="" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<metadata-artifact status="no" details="" size="459" time="0" location="C:\Users\Julien\.ivy2\cache\com.android.support.test\exposed-instrumentation-api-publish\ivy-0.5.xml" searched="true" original-local-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\exposed-instrumentation-api-publish\0.5\exposed-instrumentation-api-publish-0.5.pom" origin-is-local="true" origin-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\exposed-instrumentation-api-publish\0.5\exposed-instrumentation-api-publish-0.5.pom"/>
+				<caller organisation="com.android.support.test" name="runner" conf="default, compile, runtime, master" rev="0.5" rev-constraint-default="0.5" rev-constraint-dynamic="0.5" callerrev="0.5"/>
+				<artifacts>
+					<artifact name="exposed-instrumentation-api-publish" type="aar" ext="aar" status="no" details="" size="2788" time="0" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\exposed-instrumentation-api-publish\0.5\exposed-instrumentation-api-publish-0.5.aar">
+						<origin-location is-local="true" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\exposed-instrumentation-api-publish\0.5\exposed-instrumentation-api-publish-0.5.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.12" status="release" pubdate="20141204171743" resolver="public" artresolver="public" homepage="http://junit.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Eclipse Public License 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="successful" details="" size="23678" time="248" location="C:\Users\Julien\.ivy2\cache\junit\junit\ivy-4.12.xml" searched="true" original-local-location="C:\Users\Julien\.ivy2\cache\junit\junit\ivy-4.12.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom"/>
+				<caller organisation="com.android.support.test" name="runner" conf="default, compile, runtime, master" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="0.5"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="successful" details="" size="314932" time="2863" location="C:\Users\Julien\.ivy2\cache\junit\junit\jars\junit-4.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-core">
+			<revision name="1.3" status="release" pubdate="20120709230802" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="766" time="133" location="C:\Users\Julien\.ivy2\cache\org.hamcrest\hamcrest-core\ivy-1.3.xml" searched="true" original-local-location="C:\Users\Julien\.ivy2\cache\org.hamcrest\hamcrest-core\ivy-1.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom"/>
+				<caller organisation="junit" name="junit" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="4.12"/>
+				<caller organisation="org.hamcrest" name="hamcrest-library" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.3"/>
+				<artifacts>
+					<artifact name="hamcrest-core" type="jar" ext="jar" status="successful" details="" size="45024" time="726" location="C:\Users\Julien\.ivy2\cache\org.hamcrest\hamcrest-core\jars\hamcrest-core-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="appcompat-v7">
+			<revision name="24.0.0" status="release" pubdate="20170331221251" resolver="android libraries" artresolver="android libraries" homepage="" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="1114" time="0" location="C:\Users\Julien\.ivy2\cache\com.android.support\appcompat-v7\ivy-24.0.0.xml" searched="true" original-local-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\appcompat-v7\24.0.0\appcompat-v7-24.0.0.pom" origin-is-local="true" origin-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\appcompat-v7\24.0.0\appcompat-v7-24.0.0.pom"/>
+				<caller organisation="default" name="tyron2_2.11" conf="androidTest, compile, runtime" rev="24.0.0" rev-constraint-default="24.0.0" rev-constraint-dynamic="24.0.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="appcompat-v7" type="aar" ext="aar" status="no" details="" size="951209" time="0" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\appcompat-v7\24.0.0\appcompat-v7-24.0.0.aar">
+						<origin-location is-local="true" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\appcompat-v7\24.0.0\appcompat-v7-24.0.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="animated-vector-drawable">
+			<revision name="24.0.0" status="release" pubdate="20170331221250" resolver="android libraries" artresolver="android libraries" homepage="" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<metadata-artifact status="no" details="" size="700" time="0" location="C:\Users\Julien\.ivy2\cache\com.android.support\animated-vector-drawable\ivy-24.0.0.xml" searched="true" original-local-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\animated-vector-drawable\24.0.0\animated-vector-drawable-24.0.0.pom" origin-is-local="true" origin-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\animated-vector-drawable\24.0.0\animated-vector-drawable-24.0.0.pom"/>
+				<caller organisation="com.android.support" name="appcompat-v7" conf="default, compile, runtime, master" rev="24.0.0" rev-constraint-default="24.0.0" rev-constraint-dynamic="24.0.0" callerrev="24.0.0"/>
+				<artifacts>
+					<artifact name="animated-vector-drawable" type="aar" ext="aar" status="no" details="" size="12373" time="0" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\animated-vector-drawable\24.0.0\animated-vector-drawable-24.0.0.aar">
+						<origin-location is-local="true" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\animated-vector-drawable\24.0.0\animated-vector-drawable-24.0.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="support-vector-drawable">
+			<revision name="24.0.0" status="release" pubdate="20170331221250" resolver="android libraries" artresolver="android libraries" homepage="" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<metadata-artifact status="no" details="" size="686" time="0" location="C:\Users\Julien\.ivy2\cache\com.android.support\support-vector-drawable\ivy-24.0.0.xml" searched="true" original-local-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-vector-drawable\24.0.0\support-vector-drawable-24.0.0.pom" origin-is-local="true" origin-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-vector-drawable\24.0.0\support-vector-drawable-24.0.0.pom"/>
+				<caller organisation="com.android.support" name="appcompat-v7" conf="default, compile, runtime, master" rev="24.0.0" rev-constraint-default="24.0.0" rev-constraint-dynamic="24.0.0" callerrev="24.0.0"/>
+				<caller organisation="com.android.support" name="animated-vector-drawable" conf="compile, runtime" rev="24.0.0" rev-constraint-default="24.0.0" rev-constraint-dynamic="24.0.0" callerrev="24.0.0"/>
+				<artifacts>
+					<artifact name="support-vector-drawable" type="aar" ext="aar" status="no" details="" size="40106" time="0" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-vector-drawable\24.0.0\support-vector-drawable-24.0.0.aar">
+						<origin-location is-local="true" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-vector-drawable\24.0.0\support-vector-drawable-24.0.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="support-v4">
+			<revision name="24.0.0" status="release" pubdate="20170331221251" resolver="android libraries" artresolver="android libraries" homepage="" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="659" time="0" location="C:\Users\Julien\.ivy2\cache\com.android.support\support-v4\ivy-24.0.0.xml" searched="true" original-local-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\24.0.0\support-v4-24.0.0.pom" origin-is-local="true" origin-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\24.0.0\support-v4-24.0.0.pom"/>
+				<caller organisation="com.android.support" name="appcompat-v7" conf="default, compile, runtime, master" rev="24.0.0" rev-constraint-default="24.0.0" rev-constraint-dynamic="24.0.0" callerrev="24.0.0"/>
+				<caller organisation="com.android.support" name="support-vector-drawable" conf="compile, runtime" rev="24.0.0" rev-constraint-default="24.0.0" rev-constraint-dynamic="24.0.0" callerrev="24.0.0"/>
+				<artifacts>
+					<artifact name="support-v4" type="aar" ext="aar" status="no" details="" size="1313066" time="0" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\24.0.0\support-v4-24.0.0.aar">
+						<origin-location is-local="true" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\24.0.0\support-v4-24.0.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="support-annotations">
+			<revision name="24.0.0" status="release" pubdate="20170331221251" resolver="android libraries" artresolver="android libraries" homepage="" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<metadata-artifact status="no" details="" size="412" time="0" location="C:\Users\Julien\.ivy2\cache\com.android.support\support-annotations\ivy-24.0.0.xml" searched="true" original-local-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.pom" origin-is-local="true" origin-location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.pom"/>
+				<caller organisation="com.android.support" name="support-v4" conf="compile, runtime" rev="24.0.0" rev-constraint-default="24.0.0" rev-constraint-dynamic="24.0.0" callerrev="24.0.0"/>
+				<caller organisation="com.android.support.test" name="runner" conf="default, compile, runtime, master" rev="23.1.1" rev-constraint-default="23.1.1" rev-constraint-dynamic="23.1.1" callerrev="0.5"/>
+				<artifacts>
+					<artifact name="support-annotations" type="jar" ext="jar" status="no" details="" size="21786" time="0" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar">
+						<origin-location is-local="true" location="C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="23.1.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="24.0.0"/>
+				<caller organisation="com.android.support.test" name="runner" conf="default, compile, runtime, master" rev="23.1.1" rev-constraint-default="23.1.1" rev-constraint-dynamic="23.1.1" callerrev="0.5"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304162633" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="1426" time="147" location="C:\Users\Julien\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.8.xml" searched="true" original-local-location="C:\Users\Julien\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.8.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="default" name="tyron2_2.11" conf="androidTest, compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="5744974" time="27159" location="C:\Users\Julien\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
