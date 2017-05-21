@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 [info] Updating {file:/home/tyron/Desktop/Work/scalaApp/Tyron2/}tyron2...
+=======
+[info] Updating {file:/C:/Users/Julien/Desktop/Work/scalaApp/scalaApp/Tyron2/}tyron2...
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] :: resolving dependencies :: default#tyron2_2.11;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, androidTest, android-internal, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -12,7 +16,11 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/org.scala-lang/scala-library/2.11.8/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.scala-lang\scala-library\2.11.8\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for org.scala-lang#scala-library;2.11.8
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom
 [debug] 	public: found md file for org.scala-lang#scala-library;2.11.8
@@ -21,8 +29,13 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.8!scala-library.pom(pom.original) (180ms)
 [debug] 		tried /home/tyron/.ivy2/local/org.scala-lang/scala-library/2.11.8/jars/scala-library.jar
+=======
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.8!scala-library.pom(pom.original) (147ms)
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.scala-lang\scala-library\2.11.8\jars\scala-library.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
 [debug] 	found org.scala-lang#scala-library;2.11.8 in public
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -36,11 +49,16 @@
 [debug] sbt-chain: Checking cache for: dependency: com.android.support#appcompat-v7;24.0.0 {compile=[default(compile)]}
 [info] Resolving com.android.support#appcompat-v7;24.0.0 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.android.support#appcompat-v7;24.0.0 {compile=[default(compile)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/com.android.support/appcompat-v7/24.0.0/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support\appcompat-v7\24.0.0\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for com.android.support#appcompat-v7;24.0.0
 [debug] 		tried https://repo1.maven.org/maven2/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.pom
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.pom
 [debug] 	public: no ivy file found for com.android.support#appcompat-v7;24.0.0
+<<<<<<< HEAD
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.pom
 [debug] 	google libraries: no ivy file found for com.android.support#appcompat-v7;24.0.0
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.pom
@@ -52,6 +70,19 @@
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.aar
+=======
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.pom
+[debug] 	google libraries: no ivy file found for com.android.support#appcompat-v7;24.0.0
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.pom
+[debug] 	android libraries: found md file for com.android.support#appcompat-v7;24.0.0
+[debug] 		=> C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\appcompat-v7\24.0.0\appcompat-v7-24.0.0.pom (24.0.0)
+[debug] 	[NOT REQUIRED] com.android.support#appcompat-v7;24.0.0!appcompat-v7.pom(pom.original)
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support\appcompat-v7\24.0.0\aars\appcompat-v7.aar
+[debug] 		tried https://repo1.maven.org/maven2/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.aar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.aar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	found com.android.support#appcompat-v7;24.0.0 in android libraries
 [debug] == resolving dependencies default#tyron2_2.11;0.1-SNAPSHOT->com.android.support#appcompat-v7;24.0.0 [compile->runtime]
 [debug] == resolving dependencies default#tyron2_2.11;0.1-SNAPSHOT->com.android.support#appcompat-v7;24.0.0 [compile->compile]
@@ -62,11 +93,16 @@
 [debug] sbt-chain: Checking cache for: dependency: com.android.support#support-v4;24.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.android.support#support-v4;24.0.0 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.android.support#support-v4;24.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/com.android.support/support-v4/24.0.0/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support\support-v4\24.0.0\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for com.android.support#support-v4;24.0.0
 [debug] 		tried https://repo1.maven.org/maven2/com/android/support/support-v4/24.0.0/support-v4-24.0.0.pom
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/support-v4/24.0.0/support-v4-24.0.0.pom
 [debug] 	public: no ivy file found for com.android.support#support-v4;24.0.0
+<<<<<<< HEAD
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/support-v4/24.0.0/support-v4-24.0.0.pom
 [debug] 	google libraries: no ivy file found for com.android.support#support-v4;24.0.0
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/24.0.0/support-v4-24.0.0.pom
@@ -78,6 +114,19 @@
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/support-v4/24.0.0/support-v4-24.0.0.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/support-v4/24.0.0/support-v4-24.0.0.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/24.0.0/support-v4-24.0.0.aar
+=======
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/support-v4/24.0.0/support-v4-24.0.0.pom
+[debug] 	google libraries: no ivy file found for com.android.support#support-v4;24.0.0
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/24.0.0/support-v4-24.0.0.pom
+[debug] 	android libraries: found md file for com.android.support#support-v4;24.0.0
+[debug] 		=> C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\24.0.0\support-v4-24.0.0.pom (24.0.0)
+[debug] 	[NOT REQUIRED] com.android.support#support-v4;24.0.0!support-v4.pom(pom.original)
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support\support-v4\24.0.0\aars\support-v4.aar
+[debug] 		tried https://repo1.maven.org/maven2/com/android/support/support-v4/24.0.0/support-v4-24.0.0.aar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/support-v4/24.0.0/support-v4-24.0.0.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/support-v4/24.0.0/support-v4-24.0.0.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/24.0.0/support-v4-24.0.0.aar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	found com.android.support#support-v4;24.0.0 in android libraries
 [debug] == resolving dependencies com.android.support#appcompat-v7;24.0.0->com.android.support#support-v4;24.0.0 [compile->compile(*)]
 [debug] == resolving dependencies com.android.support#support-v4;24.0.0->com.android.support#support-annotations;24.0.0 [compile->master(compile)]
@@ -87,11 +136,16 @@
 [debug] sbt-chain: Checking cache for: dependency: com.android.support#support-annotations;24.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.android.support#support-annotations;24.0.0 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.android.support#support-annotations;24.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/com.android.support/support-annotations/24.0.0/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support\support-annotations\24.0.0\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for com.android.support#support-annotations;24.0.0
 [debug] 		tried https://repo1.maven.org/maven2/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.pom
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.pom
 [debug] 	public: no ivy file found for com.android.support#support-annotations;24.0.0
+<<<<<<< HEAD
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.pom
 [debug] 	google libraries: no ivy file found for com.android.support#support-annotations;24.0.0
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.pom
@@ -103,6 +157,19 @@
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar
+=======
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.pom
+[debug] 	google libraries: no ivy file found for com.android.support#support-annotations;24.0.0
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.pom
+[debug] 	android libraries: found md file for com.android.support#support-annotations;24.0.0
+[debug] 		=> C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.pom (24.0.0)
+[debug] 	[NOT REQUIRED] com.android.support#support-annotations;24.0.0!support-annotations.pom(pom.original)
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support\support-annotations\24.0.0\jars\support-annotations.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	found com.android.support#support-annotations;24.0.0 in android libraries
 [debug] == resolving dependencies com.android.support#support-v4;24.0.0->com.android.support#support-annotations;24.0.0 [compile->compile(*)]
 [debug] == resolving dependencies com.android.support#appcompat-v7;24.0.0->com.android.support#support-v4;24.0.0 [compile->runtime(*)]
@@ -116,11 +183,16 @@
 [debug] sbt-chain: Checking cache for: dependency: com.android.support#support-vector-drawable;24.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.android.support#support-vector-drawable;24.0.0 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.android.support#support-vector-drawable;24.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/com.android.support/support-vector-drawable/24.0.0/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support\support-vector-drawable\24.0.0\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for com.android.support#support-vector-drawable;24.0.0
 [debug] 		tried https://repo1.maven.org/maven2/com/android/support/support-vector-drawable/24.0.0/support-vector-drawable-24.0.0.pom
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/support-vector-drawable/24.0.0/support-vector-drawable-24.0.0.pom
 [debug] 	public: no ivy file found for com.android.support#support-vector-drawable;24.0.0
+<<<<<<< HEAD
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/support-vector-drawable/24.0.0/support-vector-drawable-24.0.0.pom
 [debug] 	google libraries: no ivy file found for com.android.support#support-vector-drawable;24.0.0
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/support-vector-drawable/24.0.0/support-vector-drawable-24.0.0.pom
@@ -132,6 +204,19 @@
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/support-vector-drawable/24.0.0/support-vector-drawable-24.0.0.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/support-vector-drawable/24.0.0/support-vector-drawable-24.0.0.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/support-vector-drawable/24.0.0/support-vector-drawable-24.0.0.aar
+=======
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/support-vector-drawable/24.0.0/support-vector-drawable-24.0.0.pom
+[debug] 	google libraries: no ivy file found for com.android.support#support-vector-drawable;24.0.0
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/support-vector-drawable/24.0.0/support-vector-drawable-24.0.0.pom
+[debug] 	android libraries: found md file for com.android.support#support-vector-drawable;24.0.0
+[debug] 		=> C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-vector-drawable\24.0.0\support-vector-drawable-24.0.0.pom (24.0.0)
+[debug] 	[NOT REQUIRED] com.android.support#support-vector-drawable;24.0.0!support-vector-drawable.pom(pom.original)
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support\support-vector-drawable\24.0.0\aars\support-vector-drawable.aar
+[debug] 		tried https://repo1.maven.org/maven2/com/android/support/support-vector-drawable/24.0.0/support-vector-drawable-24.0.0.aar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/support-vector-drawable/24.0.0/support-vector-drawable-24.0.0.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/support-vector-drawable/24.0.0/support-vector-drawable-24.0.0.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/support-vector-drawable/24.0.0/support-vector-drawable-24.0.0.aar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	found com.android.support#support-vector-drawable;24.0.0 in android libraries
 [debug] == resolving dependencies com.android.support#appcompat-v7;24.0.0->com.android.support#support-vector-drawable;24.0.0 [compile->compile(*)]
 [debug] == resolving dependencies com.android.support#support-vector-drawable;24.0.0->com.android.support#support-v4;24.0.0 [compile->master(compile)]
@@ -147,11 +232,16 @@
 [debug] sbt-chain: Checking cache for: dependency: com.android.support#animated-vector-drawable;24.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.android.support#animated-vector-drawable;24.0.0 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.android.support#animated-vector-drawable;24.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/com.android.support/animated-vector-drawable/24.0.0/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support\animated-vector-drawable\24.0.0\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for com.android.support#animated-vector-drawable;24.0.0
 [debug] 		tried https://repo1.maven.org/maven2/com/android/support/animated-vector-drawable/24.0.0/animated-vector-drawable-24.0.0.pom
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/animated-vector-drawable/24.0.0/animated-vector-drawable-24.0.0.pom
 [debug] 	public: no ivy file found for com.android.support#animated-vector-drawable;24.0.0
+<<<<<<< HEAD
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/animated-vector-drawable/24.0.0/animated-vector-drawable-24.0.0.pom
 [debug] 	google libraries: no ivy file found for com.android.support#animated-vector-drawable;24.0.0
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/24.0.0/animated-vector-drawable-24.0.0.pom
@@ -163,6 +253,19 @@
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/animated-vector-drawable/24.0.0/animated-vector-drawable-24.0.0.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/animated-vector-drawable/24.0.0/animated-vector-drawable-24.0.0.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/24.0.0/animated-vector-drawable-24.0.0.aar
+=======
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/animated-vector-drawable/24.0.0/animated-vector-drawable-24.0.0.pom
+[debug] 	google libraries: no ivy file found for com.android.support#animated-vector-drawable;24.0.0
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/24.0.0/animated-vector-drawable-24.0.0.pom
+[debug] 	android libraries: found md file for com.android.support#animated-vector-drawable;24.0.0
+[debug] 		=> C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\animated-vector-drawable\24.0.0\animated-vector-drawable-24.0.0.pom (24.0.0)
+[debug] 	[NOT REQUIRED] com.android.support#animated-vector-drawable;24.0.0!animated-vector-drawable.pom(pom.original)
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support\animated-vector-drawable\24.0.0\aars\animated-vector-drawable.aar
+[debug] 		tried https://repo1.maven.org/maven2/com/android/support/animated-vector-drawable/24.0.0/animated-vector-drawable-24.0.0.aar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/animated-vector-drawable/24.0.0/animated-vector-drawable-24.0.0.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/animated-vector-drawable/24.0.0/animated-vector-drawable-24.0.0.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/24.0.0/animated-vector-drawable-24.0.0.aar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	found com.android.support#animated-vector-drawable;24.0.0 in android libraries
 [debug] == resolving dependencies com.android.support#appcompat-v7;24.0.0->com.android.support#animated-vector-drawable;24.0.0 [compile->compile(*)]
 [debug] == resolving dependencies com.android.support#animated-vector-drawable;24.0.0->com.android.support#support-vector-drawable;24.0.0 [compile->master(compile)]
@@ -396,11 +499,16 @@
 [debug] sbt-chain: Checking cache for: dependency: com.android.support.test#runner;0.5 {androidTest=[default(compile)]}
 [info] Resolving com.android.support.test#runner;0.5 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.android.support.test#runner;0.5 {androidTest=[default(compile)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/com.android.support.test/runner/0.5/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support.test\runner\0.5\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for com.android.support.test#runner;0.5
 [debug] 		tried https://repo1.maven.org/maven2/com/android/support/test/runner/0.5/runner-0.5.pom
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/runner/0.5/runner-0.5.pom
 [debug] 	public: no ivy file found for com.android.support.test#runner;0.5
+<<<<<<< HEAD
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/test/runner/0.5/runner-0.5.pom
 [debug] 	google libraries: no ivy file found for com.android.support.test#runner;0.5
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/runner/0.5/runner-0.5.pom
@@ -412,6 +520,19 @@
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/runner/0.5/runner-0.5.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/test/runner/0.5/runner-0.5.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/runner/0.5/runner-0.5.aar
+=======
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/test/runner/0.5/runner-0.5.pom
+[debug] 	google libraries: no ivy file found for com.android.support.test#runner;0.5
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/runner/0.5/runner-0.5.pom
+[debug] 	android libraries: found md file for com.android.support.test#runner;0.5
+[debug] 		=> C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\runner\0.5\runner-0.5.pom (0.5)
+[debug] 	[NOT REQUIRED] com.android.support.test#runner;0.5!runner.pom(pom.original)
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support.test\runner\0.5\aars\runner.aar
+[debug] 		tried https://repo1.maven.org/maven2/com/android/support/test/runner/0.5/runner-0.5.aar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/runner/0.5/runner-0.5.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/test/runner/0.5/runner-0.5.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/runner/0.5/runner-0.5.aar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	found com.android.support.test#runner;0.5 in android libraries
 [debug] == resolving dependencies default#tyron2_2.11;0.1-SNAPSHOT->com.android.support.test#runner;0.5 [androidTest->runtime]
 [debug] == resolving dependencies default#tyron2_2.11;0.1-SNAPSHOT->com.android.support.test#runner;0.5 [androidTest->compile]
@@ -430,7 +551,11 @@
 [debug] sbt-chain: Checking cache for: dependency: junit#junit;4.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving junit#junit;4.12 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: junit#junit;4.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/junit/junit/4.12/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\junit\junit\4.12\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for junit#junit;4.12
 [debug] 		tried https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom
 [debug] 	public: found md file for junit#junit;4.12
@@ -439,8 +564,13 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] junit#junit;4.12!junit.pom(pom.original) (815ms)
 [debug] 		tried /home/tyron/.ivy2/local/junit/junit/4.12/jars/junit.jar
+=======
+[debug] 	[SUCCESSFUL ] junit#junit;4.12!junit.pom(pom.original) (248ms)
+[debug] 		tried C:\Users\Julien\.ivy2\local\junit\junit\4.12\jars\junit.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar
 [debug] 	found junit#junit;4.12 in public
 [debug] == resolving dependencies com.android.support.test#runner;0.5->junit#junit;4.12 [compile->compile(*)]
@@ -455,7 +585,11 @@
 [debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/org.hamcrest/hamcrest-core/1.3/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.hamcrest\hamcrest-core\1.3\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for org.hamcrest#hamcrest-core;1.3
 [debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
 [debug] 	public: found md file for org.hamcrest#hamcrest-core;1.3
@@ -464,12 +598,20 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.3!hamcrest-core.pom(pom.original) (469ms)
+=======
+[debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.3!hamcrest-core.pom(pom.original) (133ms)
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [info] Resolving org.hamcrest#hamcrest-parent;1.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.3 {}
 [info] Resolving org.hamcrest#hamcrest-parent;1.3 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.3 {}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/org.hamcrest/hamcrest-parent/1.3/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.hamcrest\hamcrest-parent\1.3\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for org.hamcrest#hamcrest-parent;1.3
 [debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
 [debug] 	public: found md file for org.hamcrest#hamcrest-parent;1.3
@@ -478,6 +620,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-parent;1.3!hamcrest-parent.pom(pom.original) (251ms)
 [debug] 		tried /home/tyron/.ivy2/local/org.hamcrest/hamcrest-parent/1.3/jars/hamcrest-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.jar
@@ -485,6 +628,15 @@
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.jar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.jar
 [debug] 		tried /home/tyron/.ivy2/local/org.hamcrest/hamcrest-core/1.3/jars/hamcrest-core.jar
+=======
+[debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-parent;1.3!hamcrest-parent.pom(pom.original) (138ms)
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.hamcrest\hamcrest-parent\1.3\jars\hamcrest-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.jar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.jar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.jar
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.hamcrest\hamcrest-core\1.3\jars\hamcrest-core.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in public
 [debug] == resolving dependencies junit#junit;4.12->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)]
@@ -503,11 +655,16 @@
 [debug] sbt-chain: Checking cache for: dependency: com.android.support.test#exposed-instrumentation-api-publish;0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.android.support.test#exposed-instrumentation-api-publish;0.5 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.android.support.test#exposed-instrumentation-api-publish;0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/com.android.support.test/exposed-instrumentation-api-publish/0.5/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support.test\exposed-instrumentation-api-publish\0.5\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for com.android.support.test#exposed-instrumentation-api-publish;0.5
 [debug] 		tried https://repo1.maven.org/maven2/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.pom
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.pom
 [debug] 	public: no ivy file found for com.android.support.test#exposed-instrumentation-api-publish;0.5
+<<<<<<< HEAD
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.pom
 [debug] 	google libraries: no ivy file found for com.android.support.test#exposed-instrumentation-api-publish;0.5
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.pom
@@ -519,6 +676,19 @@
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.aar
+=======
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.pom
+[debug] 	google libraries: no ivy file found for com.android.support.test#exposed-instrumentation-api-publish;0.5
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.pom
+[debug] 	android libraries: found md file for com.android.support.test#exposed-instrumentation-api-publish;0.5
+[debug] 		=> C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\exposed-instrumentation-api-publish\0.5\exposed-instrumentation-api-publish-0.5.pom (0.5)
+[debug] 	[NOT REQUIRED] com.android.support.test#exposed-instrumentation-api-publish;0.5!exposed-instrumentation-api-publish.pom(pom.original)
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support.test\exposed-instrumentation-api-publish\0.5\aars\exposed-instrumentation-api-publish.aar
+[debug] 		tried https://repo1.maven.org/maven2/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.aar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.aar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	found com.android.support.test#exposed-instrumentation-api-publish;0.5 in android libraries
 [debug] == resolving dependencies com.android.support.test#runner;0.5->com.android.support.test#exposed-instrumentation-api-publish;0.5 [compile->compile(*)]
 [debug] == resolving dependencies com.android.support.test#runner;0.5->com.android.support.test#exposed-instrumentation-api-publish;0.5 [compile->runtime(*)]
@@ -542,11 +712,16 @@
 [debug] sbt-chain: Checking cache for: dependency: com.android.support.test.espresso#espresso-core;2.2.2 {androidTest=[default(compile)]}
 [info] Resolving com.android.support.test.espresso#espresso-core;2.2.2 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.android.support.test.espresso#espresso-core;2.2.2 {androidTest=[default(compile)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/com.android.support.test.espresso/espresso-core/2.2.2/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support.test.espresso\espresso-core\2.2.2\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for com.android.support.test.espresso#espresso-core;2.2.2
 [debug] 		tried https://repo1.maven.org/maven2/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.pom
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.pom
 [debug] 	public: no ivy file found for com.android.support.test.espresso#espresso-core;2.2.2
+<<<<<<< HEAD
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.pom
 [debug] 	google libraries: no ivy file found for com.android.support.test.espresso#espresso-core;2.2.2
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.pom
@@ -558,6 +733,19 @@
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.aar
+=======
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.pom
+[debug] 	google libraries: no ivy file found for com.android.support.test.espresso#espresso-core;2.2.2
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.pom
+[debug] 	android libraries: found md file for com.android.support.test.espresso#espresso-core;2.2.2
+[debug] 		=> C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\espresso\espresso-core\2.2.2\espresso-core-2.2.2.pom (2.2.2)
+[debug] 	[NOT REQUIRED] com.android.support.test.espresso#espresso-core;2.2.2!espresso-core.pom(pom.original)
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support.test.espresso\espresso-core\2.2.2\aars\espresso-core.aar
+[debug] 		tried https://repo1.maven.org/maven2/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.aar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.aar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	found com.android.support.test.espresso#espresso-core;2.2.2 in android libraries
 [debug] == resolving dependencies default#tyron2_2.11;0.1-SNAPSHOT->com.android.support.test.espresso#espresso-core;2.2.2 [androidTest->runtime]
 [debug] == resolving dependencies default#tyron2_2.11;0.1-SNAPSHOT->com.android.support.test.espresso#espresso-core;2.2.2 [androidTest->compile]
@@ -572,7 +760,11 @@
 [debug] sbt-chain: Checking cache for: dependency: com.squareup#javawriter;2.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.squareup#javawriter;2.1.1 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.squareup#javawriter;2.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/com.squareup/javawriter/2.1.1/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.squareup\javawriter\2.1.1\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for com.squareup#javawriter;2.1.1
 [debug] 		tried https://repo1.maven.org/maven2/com/squareup/javawriter/2.1.1/javawriter-2.1.1.pom
 [debug] 	public: found md file for com.squareup#javawriter;2.1.1
@@ -581,11 +773,19 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/javawriter/2.1.1/javawriter-2.1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/javawriter/2.1.1/javawriter-2.1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/squareup/javawriter/2.1.1/javawriter-2.1.1.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] com.squareup#javawriter;2.1.1!javawriter.pom(pom.original) (298ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
 [debug] 		tried /home/tyron/.ivy2/local/com.squareup/javawriter/2.1.1/jars/javawriter.jar
+=======
+[debug] 	[SUCCESSFUL ] com.squareup#javawriter;2.1.1!javawriter.pom(pom.original) (233ms)
+[info] Resolving org.sonatype.oss#oss-parent;7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.squareup\javawriter\2.1.1\jars\javawriter.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/com/squareup/javawriter/2.1.1/javawriter-2.1.1.jar
 [debug] 	found com.squareup#javawriter;2.1.1 in public
 [debug] == resolving dependencies com.android.support.test.espresso#espresso-core;2.2.2->com.squareup#javawriter;2.1.1 [compile->compile(*)]
@@ -602,11 +802,16 @@
 [debug] sbt-chain: Checking cache for: dependency: com.android.support.test#rules;0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.android.support.test#rules;0.5 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.android.support.test#rules;0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/com.android.support.test/rules/0.5/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support.test\rules\0.5\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for com.android.support.test#rules;0.5
 [debug] 		tried https://repo1.maven.org/maven2/com/android/support/test/rules/0.5/rules-0.5.pom
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/rules/0.5/rules-0.5.pom
 [debug] 	public: no ivy file found for com.android.support.test#rules;0.5
+<<<<<<< HEAD
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/test/rules/0.5/rules-0.5.pom
 [debug] 	google libraries: no ivy file found for com.android.support.test#rules;0.5
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5.pom
@@ -618,6 +823,19 @@
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/rules/0.5/rules-0.5.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/test/rules/0.5/rules-0.5.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5.aar
+=======
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/test/rules/0.5/rules-0.5.pom
+[debug] 	google libraries: no ivy file found for com.android.support.test#rules;0.5
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5.pom
+[debug] 	android libraries: found md file for com.android.support.test#rules;0.5
+[debug] 		=> C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\rules\0.5\rules-0.5.pom (0.5)
+[debug] 	[NOT REQUIRED] com.android.support.test#rules;0.5!rules.pom(pom.original)
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support.test\rules\0.5\aars\rules.aar
+[debug] 		tried https://repo1.maven.org/maven2/com/android/support/test/rules/0.5/rules-0.5.aar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/rules/0.5/rules-0.5.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/test/rules/0.5/rules-0.5.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5.aar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	found com.android.support.test#rules;0.5 in android libraries
 [debug] == resolving dependencies com.android.support.test.espresso#espresso-core;2.2.2->com.android.support.test#rules;0.5 [compile->compile(*)]
 [debug] == resolving dependencies com.android.support.test#rules;0.5->com.android.support.test#runner;0.5 [compile->master(compile)]
@@ -641,7 +859,11 @@
 [debug] sbt-chain: Checking cache for: dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving javax.inject#javax.inject;1 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/javax.inject/javax.inject/1/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\javax.inject\javax.inject\1\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for javax.inject#javax.inject;1
 [debug] 		tried https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
 [debug] 	public: found md file for javax.inject#javax.inject;1
@@ -650,8 +872,13 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.pom(pom.original) (156ms)
 [debug] 		tried /home/tyron/.ivy2/local/javax.inject/javax.inject/1/jars/javax.inject.jar
+=======
+[debug] 	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.pom(pom.original) (124ms)
+[debug] 		tried C:\Users\Julien\.ivy2\local\javax.inject\javax.inject\1\jars\javax.inject.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
 [debug] 	found javax.inject#javax.inject;1 in public
 [debug] == resolving dependencies com.android.support.test.espresso#espresso-core;2.2.2->javax.inject#javax.inject;1 [compile->compile(*)]
@@ -668,7 +895,11 @@
 [debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-library;1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving org.hamcrest#hamcrest-library;1.3 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-library;1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/org.hamcrest/hamcrest-library/1.3/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.hamcrest\hamcrest-library\1.3\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for org.hamcrest#hamcrest-library;1.3
 [debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
 [debug] 	public: found md file for org.hamcrest#hamcrest-library;1.3
@@ -677,11 +908,19 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-library;1.3!hamcrest-library.pom(pom.original) (651ms)
 [info] Resolving org.hamcrest#hamcrest-parent;1.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.3 {}
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-parent;1.3
 [debug] 		tried /home/tyron/.ivy2/local/org.hamcrest/hamcrest-library/1.3/jars/hamcrest-library.jar
+=======
+[debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-library;1.3!hamcrest-library.pom(pom.original) (121ms)
+[info] Resolving org.hamcrest#hamcrest-parent;1.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.3 {}
+[debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-parent;1.3
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.hamcrest\hamcrest-library\1.3\jars\hamcrest-library.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
 [debug] 	found org.hamcrest#hamcrest-library;1.3 in public
 [debug] == resolving dependencies com.android.support.test.espresso#espresso-core;2.2.2->org.hamcrest#hamcrest-library;1.3 [compile->compile(*)]
@@ -702,11 +941,16 @@
 [debug] sbt-chain: Checking cache for: dependency: com.android.support.test.espresso#espresso-idling-resource;2.2.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.android.support.test.espresso#espresso-idling-resource;2.2.2 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.android.support.test.espresso#espresso-idling-resource;2.2.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/com.android.support.test.espresso/espresso-idling-resource/2.2.2/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support.test.espresso\espresso-idling-resource\2.2.2\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for com.android.support.test.espresso#espresso-idling-resource;2.2.2
 [debug] 		tried https://repo1.maven.org/maven2/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.pom
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.pom
 [debug] 	public: no ivy file found for com.android.support.test.espresso#espresso-idling-resource;2.2.2
+<<<<<<< HEAD
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.pom
 [debug] 	google libraries: no ivy file found for com.android.support.test.espresso#espresso-idling-resource;2.2.2
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.pom
@@ -718,6 +962,19 @@
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.aar
+=======
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.pom
+[debug] 	google libraries: no ivy file found for com.android.support.test.espresso#espresso-idling-resource;2.2.2
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.pom
+[debug] 	android libraries: found md file for com.android.support.test.espresso#espresso-idling-resource;2.2.2
+[debug] 		=> C:\Users\Julien\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\test\espresso\espresso-idling-resource\2.2.2\espresso-idling-resource-2.2.2.pom (2.2.2)
+[debug] 	[NOT REQUIRED] com.android.support.test.espresso#espresso-idling-resource;2.2.2!espresso-idling-resource.pom(pom.original)
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.android.support.test.espresso\espresso-idling-resource\2.2.2\aars\espresso-idling-resource.aar
+[debug] 		tried https://repo1.maven.org/maven2/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.aar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.aar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	found com.android.support.test.espresso#espresso-idling-resource;2.2.2 in android libraries
 [debug] == resolving dependencies com.android.support.test.espresso#espresso-core;2.2.2->com.android.support.test.espresso#espresso-idling-resource;2.2.2 [compile->compile(*)]
 [debug] == resolving dependencies com.android.support.test.espresso#espresso-core;2.2.2->com.android.support.test.espresso#espresso-idling-resource;2.2.2 [compile->runtime(*)]
@@ -733,7 +990,11 @@
 [debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-integration;1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving org.hamcrest#hamcrest-integration;1.3 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-integration;1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/org.hamcrest/hamcrest-integration/1.3/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.hamcrest\hamcrest-integration\1.3\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for org.hamcrest#hamcrest-integration;1.3
 [debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.pom
 [debug] 	public: found md file for org.hamcrest#hamcrest-integration;1.3
@@ -742,11 +1003,19 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-integration;1.3!hamcrest-integration.pom(pom.original) (173ms)
 [info] Resolving org.hamcrest#hamcrest-parent;1.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.3 {}
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-parent;1.3
 [debug] 		tried /home/tyron/.ivy2/local/org.hamcrest/hamcrest-integration/1.3/jars/hamcrest-integration.jar
+=======
+[debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-integration;1.3!hamcrest-integration.pom(pom.original) (141ms)
+[info] Resolving org.hamcrest#hamcrest-parent;1.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.3 {}
+[debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-parent;1.3
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.hamcrest\hamcrest-integration\1.3\jars\hamcrest-integration.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar
 [debug] 	found org.hamcrest#hamcrest-integration;1.3 in public
 [debug] == resolving dependencies com.android.support.test.espresso#espresso-core;2.2.2->org.hamcrest#hamcrest-integration;1.3 [compile->compile(*)]
@@ -767,7 +1036,11 @@
 [debug] sbt-chain: Checking cache for: dependency: com.google.code.findbugs#jsr305;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.google.code.findbugs#jsr305;2.0.1 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.google.code.findbugs#jsr305;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/com.google.code.findbugs/jsr305/2.0.1/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.google.code.findbugs\jsr305\2.0.1\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for com.google.code.findbugs#jsr305;2.0.1
 [debug] 		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
 [debug] 	public: found md file for com.google.code.findbugs#jsr305;2.0.1
@@ -776,8 +1049,13 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;2.0.1!jsr305.pom(pom.original) (169ms)
 [debug] 		tried /home/tyron/.ivy2/local/com.google.code.findbugs/jsr305/2.0.1/jars/jsr305.jar
+=======
+[debug] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;2.0.1!jsr305.pom(pom.original) (136ms)
+[debug] 		tried C:\Users\Julien\.ivy2\local\com.google.code.findbugs\jsr305\2.0.1\jars\jsr305.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
 [debug] 	found com.google.code.findbugs#jsr305;2.0.1 in public
 [debug] == resolving dependencies com.android.support.test.espresso#espresso-core;2.2.2->com.google.code.findbugs#jsr305;2.0.1 [compile->compile(*)]
@@ -794,7 +1072,11 @@
 [debug] sbt-chain: Checking cache for: dependency: javax.annotation#javax.annotation-api;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving javax.annotation#javax.annotation-api;1.2 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: javax.annotation#javax.annotation-api;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/javax.annotation/javax.annotation-api/1.2/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\javax.annotation\javax.annotation-api\1.2\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for javax.annotation#javax.annotation-api;1.2
 [debug] 		tried https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
 [debug] 	public: found md file for javax.annotation#javax.annotation-api;1.2
@@ -803,12 +1085,20 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] javax.annotation#javax.annotation-api;1.2!javax.annotation-api.pom(pom.original) (214ms)
+=======
+[debug] 	[SUCCESSFUL ] javax.annotation#javax.annotation-api;1.2!javax.annotation-api.pom(pom.original) (179ms)
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [info] Resolving net.java#jvnet-parent;3 ...
 [debug] sbt-chain: Checking cache for: dependency: net.java#jvnet-parent;3 {}
 [info] Resolving net.java#jvnet-parent;3 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: net.java#jvnet-parent;3 {}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/net.java/jvnet-parent/3/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\net.java\jvnet-parent\3\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for net.java#jvnet-parent;3
 [debug] 		tried https://repo1.maven.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
 [debug] 	public: found md file for net.java#jvnet-parent;3
@@ -817,6 +1107,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] net.java#jvnet-parent;3!jvnet-parent.pom(pom.original) (172ms)
 [debug] 		tried /home/tyron/.ivy2/local/net.java/jvnet-parent/3/jars/jvnet-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.jar
@@ -824,6 +1115,15 @@
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/google/m2repository/net/java/jvnet-parent/3/jvnet-parent-3.jar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/net/java/jvnet-parent/3/jvnet-parent-3.jar
 [debug] 		tried /home/tyron/.ivy2/local/javax.annotation/javax.annotation-api/1.2/jars/javax.annotation-api.jar
+=======
+[debug] 	[SUCCESSFUL ] net.java#jvnet-parent;3!jvnet-parent.pom(pom.original) (147ms)
+[debug] 		tried C:\Users\Julien\.ivy2\local\net.java\jvnet-parent\3\jars\jvnet-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.jar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/google/m2repository/net/java/jvnet-parent/3/jvnet-parent-3.jar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/net/java/jvnet-parent/3/jvnet-parent-3.jar
+[debug] 		tried C:\Users\Julien\.ivy2\local\javax.annotation\javax.annotation-api\1.2\jars\javax.annotation-api.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar
 [debug] 	found javax.annotation#javax.annotation-api;1.2 in public
 [debug] == resolving dependencies com.android.support.test.espresso#espresso-core;2.2.2->javax.annotation#javax.annotation-api;1.2 [compile->compile(*)]
@@ -855,6 +1155,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.11.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.11.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving net.sf.proguard#proguard-base;5.0 ...
 [debug] sbt-chain: Checking cache for: dependency: net.sf.proguard#proguard-base;5.0 {android-internal=[default(compile)]}
+<<<<<<< HEAD
 [info] Resolving net.sf.proguard#proguard-base;5.0 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: net.sf.proguard#proguard-base;5.0 {android-internal=[default(compile)]}
 [debug] 		tried /home/tyron/.ivy2/local/net.sf.proguard/proguard-base/5.0/ivys/ivy.xml
@@ -889,6 +1190,10 @@
 [debug] 		tried /home/tyron/.ivy2/local/net.sf.proguard/proguard-base/5.0/jars/proguard-base.jar
 [debug] 		tried https://repo1.maven.org/maven2/net/sf/proguard/proguard-base/5.0/proguard-base-5.0.jar
 [debug] 	found net.sf.proguard#proguard-base;5.0 in public
+=======
+[debug] sbt-chain: module revision found in cache: net.sf.proguard#proguard-base;5.0
+[debug] 	found net.sf.proguard#proguard-base;5.0 in sbt-chain
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] == resolving dependencies default#tyron2_2.11;0.1-SNAPSHOT->net.sf.proguard#proguard-base;5.0 [android-internal->runtime]
 [debug] == resolving dependencies default#tyron2_2.11;0.1-SNAPSHOT->net.sf.proguard#proguard-base;5.0 [android-internal->compile]
 [debug] == resolving dependencies default#tyron2_2.11;0.1-SNAPSHOT->net.sf.proguard#proguard-base;5.0 [android-internal->master]
@@ -1190,7 +1495,11 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
 [info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default, optional(default)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/org.scala-lang/scala-compiler/2.11.8/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.scala-lang\scala-compiler\2.11.8\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for org.scala-lang#scala-compiler;2.11.8
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.pom
 [debug] 	public: found md file for org.scala-lang#scala-compiler;2.11.8
@@ -1199,8 +1508,13 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.8!scala-compiler.pom(pom.original) (162ms)
 [debug] 		tried /home/tyron/.ivy2/local/org.scala-lang/scala-compiler/2.11.8/jars/scala-compiler.jar
+=======
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.8!scala-compiler.pom(pom.original) (133ms)
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.scala-lang\scala-compiler\2.11.8\jars\scala-compiler.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar
 [debug] 	found org.scala-lang#scala-compiler;2.11.8 in public
 [debug] == resolving dependencies default#tyron2_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime]
@@ -1245,7 +1559,11 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/org.scala-lang/scala-reflect/2.11.8/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.scala-lang\scala-reflect\2.11.8\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for org.scala-lang#scala-reflect;2.11.8
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom
 [debug] 	public: found md file for org.scala-lang#scala-reflect;2.11.8
@@ -1254,8 +1572,13 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.8!scala-reflect.pom(pom.original) (161ms)
 [debug] 		tried /home/tyron/.ivy2/local/org.scala-lang/scala-reflect/2.11.8/jars/scala-reflect.jar
+=======
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.8!scala-reflect.pom(pom.original) (132ms)
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.scala-lang\scala-reflect\2.11.8\jars\scala-reflect.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar
 [debug] 	found org.scala-lang#scala-reflect;2.11.8 in public
 [debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
@@ -1291,7 +1614,11 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.4\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.4
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom
 [debug] 	public: found md file for org.scala-lang.modules#scala-xml_2.11;1.0.4
@@ -1300,8 +1627,13 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.pom(pom.original) (183ms)
 [debug] 		tried /home/tyron/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/bundles/scala-xml_2.11.jar
+=======
+[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.pom(pom.original) (167ms)
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.4\bundles\scala-xml_2.11.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.11.4 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.11.8 {test=[runtime(*), master(compile)]}
@@ -1344,7 +1676,11 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.4\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom
 [debug] 	public: found md file for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
@@ -1353,8 +1689,13 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.pom(pom.original) (204ms)
 [debug] 		tried /home/tyron/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/bundles/scala-parser-combinators_2.11.jar
+=======
+[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.pom(pom.original) (197ms)
+[debug] 		tried C:\Users\Julien\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.4\bundles\scala-parser-combinators_2.11.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.11.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1409,7 +1750,11 @@
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}
 [info] Resolving jline#jline;2.12.1 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}
+<<<<<<< HEAD
 [debug] 		tried /home/tyron/.ivy2/local/jline/jline/2.12.1/ivys/ivy.xml
+=======
+[debug] 		tried C:\Users\Julien\.ivy2\local\jline\jline\2.12.1\ivys\ivy.xml
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	local: no ivy file found for jline#jline;2.12.1
 [debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom
 [debug] 	public: found md file for jline#jline;2.12.1
@@ -1418,11 +1763,19 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom
+<<<<<<< HEAD
 [debug] 	[SUCCESSFUL ] jline#jline;2.12.1!jline.pom(pom.original) (221ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
 [debug] 		tried /home/tyron/.ivy2/local/jline/jline/2.12.1/jars/jline.jar
+=======
+[debug] 	[SUCCESSFUL ] jline#jline;2.12.1!jline.pom(pom.original) (230ms)
+[info] Resolving org.sonatype.oss#oss-parent;7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
+[debug] 		tried C:\Users\Julien\.ivy2\local\jline\jline\2.12.1\jars\jline.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar
 [debug] 	found jline#jline;2.12.1 in public
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->compile(*)]
@@ -1439,6 +1792,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+<<<<<<< HEAD
 [info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.8!scala-library.jar (6395ms)
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.aar
 [debug] 	[NOT REQUIRED] com.android.support#appcompat-v7;24.0.0!appcompat-v7.aar
@@ -1453,60 +1807,108 @@
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/runner/0.5/runner-0.5.aar
 [debug] 	[NOT REQUIRED] com.android.support.test#runner;0.5!runner.aar
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.aar
+=======
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.8!scala-library.jar (27159ms)
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.aar
+[debug] 	[NOT REQUIRED] com.android.support#appcompat-v7;24.0.0!appcompat-v7.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/24.0.0/support-v4-24.0.0.aar
+[debug] 	[NOT REQUIRED] com.android.support#support-v4;24.0.0!support-v4.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/support-vector-drawable/24.0.0/support-vector-drawable-24.0.0.aar
+[debug] 	[NOT REQUIRED] com.android.support#support-vector-drawable;24.0.0!support-vector-drawable.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/24.0.0/animated-vector-drawable-24.0.0.aar
+[debug] 	[NOT REQUIRED] com.android.support#animated-vector-drawable;24.0.0!animated-vector-drawable.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar
+[debug] 	[NOT REQUIRED] com.android.support#support-annotations;24.0.0!support-annotations.jar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/runner/0.5/runner-0.5.aar
+[debug] 	[NOT REQUIRED] com.android.support.test#runner;0.5!runner.aar
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/espresso/espresso-core/2.2.2/espresso-core-2.2.2.aar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	[NOT REQUIRED] com.android.support.test.espresso#espresso-core;2.2.2!espresso-core.aar
 [debug] 		tried https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar
 [info] downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar
+<<<<<<< HEAD
 [info] 	[SUCCESSFUL ] junit#junit;4.12!junit.jar (552ms)
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.aar
+=======
+[info] 	[SUCCESSFUL ] junit#junit;4.12!junit.jar (2863ms)
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/exposed-instrumentation-api-publish/0.5/exposed-instrumentation-api-publish-0.5.aar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	[NOT REQUIRED] com.android.support.test#exposed-instrumentation-api-publish;0.5!exposed-instrumentation-api-publish.aar
 [debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
 [info] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+<<<<<<< HEAD
 [info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar (186ms)
+=======
+[info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar (726ms)
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/com/squareup/javawriter/2.1.1/javawriter-2.1.1.jar
 [info] downloading https://repo1.maven.org/maven2/com/squareup/javawriter/2.1.1/javawriter-2.1.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/javawriter/2.1.1/javawriter-2.1.1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/javawriter/2.1.1/javawriter-2.1.1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/squareup/javawriter/2.1.1/javawriter-2.1.1.jar
+<<<<<<< HEAD
 [info] 	[SUCCESSFUL ] com.squareup#javawriter;2.1.1!javawriter.jar (245ms)
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5.aar
+=======
+[info] 	[SUCCESSFUL ] com.squareup#javawriter;2.1.1!javawriter.jar (203ms)
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5.aar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	[NOT REQUIRED] com.android.support.test#rules;0.5!rules.aar
 [debug] 		tried https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
 [info] downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
+<<<<<<< HEAD
 [info] 	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.jar (170ms)
+=======
+[info] 	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.jar (122ms)
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
 [info] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar
+<<<<<<< HEAD
 [info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-library;1.3!hamcrest-library.jar (224ms)
 [debug] 		tried file:/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.aar
+=======
+[info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-library;1.3!hamcrest-library.jar (300ms)
+[debug] 		tried file:/C:/Users/Julien/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/test/espresso/espresso-idling-resource/2.2.2/espresso-idling-resource-2.2.2.aar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 	[NOT REQUIRED] com.android.support.test.espresso#espresso-idling-resource;2.2.2!espresso-idling-resource.aar
 [debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar
 [info] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar
+<<<<<<< HEAD
 [info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-integration;1.3!hamcrest-integration.jar (183ms)
+=======
+[info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-integration;1.3!hamcrest-integration.jar (214ms)
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
 [info] downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+<<<<<<< HEAD
 [info] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;2.0.1!jsr305.jar (189ms)
+=======
+[info] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;2.0.1!jsr305.jar (525ms)
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar
 [info] downloading https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar
+<<<<<<< HEAD
 [info] 	[SUCCESSFUL ] javax.annotation#javax.annotation-api;1.2!javax.annotation-api.jar (177ms)
 [debug] 		tried https://repo1.maven.org/maven2/net/sf/proguard/proguard-base/5.0/proguard-base-5.0.jar
 [info] downloading https://repo1.maven.org/maven2/net/sf/proguard/proguard-base/5.0/proguard-base-5.0.jar ...
@@ -1514,35 +1916,56 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/net/sf/proguard/proguard-base/5.0/proguard-base-5.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/net/sf/proguard/proguard-base/5.0/proguard-base-5.0.jar
 [info] 	[SUCCESSFUL ] net.sf.proguard#proguard-base;5.0!proguard-base.jar (676ms)
+=======
+[info] 	[SUCCESSFUL ] javax.annotation#javax.annotation-api;1.2!javax.annotation-api.jar (298ms)
+[debug] 	[NOT REQUIRED] net.sf.proguard#proguard-base;5.0!proguard-base.jar
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar
 [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar
+<<<<<<< HEAD
 [info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar (6936ms)
+=======
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar (71958ms)
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar
 [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar
+<<<<<<< HEAD
 [info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar (1901ms)
+=======
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar (20297ms)
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar
 [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar
+<<<<<<< HEAD
 [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle) (456ms)
+=======
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle) (3723ms)
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
 [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
+<<<<<<< HEAD
 [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle) (316ms)
+=======
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle) (2251ms)
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar
 [info] downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar
+<<<<<<< HEAD
 [info] 	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar (211ms)
 [debug] :: resolution report :: resolve 10393ms :: artifacts dl 18845ms
 [debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT compile produced in /home/tyron/Desktop/Work/scalaApp/Tyron2/target/resolution-cache/reports/default-tyron2_2.11-compile.xml
@@ -1561,4 +1984,24 @@
 [debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT pom produced in /home/tyron/Desktop/Work/scalaApp/Tyron2/target/resolution-cache/reports/default-tyron2_2.11-pom.xml
 [debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT scala-tool produced in /home/tyron/Desktop/Work/scalaApp/Tyron2/target/resolution-cache/reports/default-tyron2_2.11-scala-tool.xml
 [debug] 	resolve done (10393ms resolve - 18845ms download)
+=======
+[info] 	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar (950ms)
+[debug] :: resolution report :: resolve 5310ms :: artifacts dl 131707ms
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT compile produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-compile.xml
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT runtime produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-runtime.xml
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT test produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-test.xml
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT provided produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-provided.xml
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT optional produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-optional.xml
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT androidTest produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-androidTest.xml
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT android-internal produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-android-internal.xml
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT compile-internal produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-compile-internal.xml
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT runtime-internal produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-runtime-internal.xml
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT test-internal produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-test-internal.xml
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT plugin produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-plugin.xml
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT sources produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-sources.xml
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT docs produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-docs.xml
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT pom produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-pom.xml
+[debug] 	report for default#tyron2_2.11;0.1-SNAPSHOT scala-tool produced in C:\Users\Julien\Desktop\Work\scalaApp\scalaApp\Tyron2\target\resolution-cache\reports\default-tyron2_2.11-scala-tool.xml
+[debug] 	resolve done (5310ms resolve - 131707ms download)
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [info] Done updating.

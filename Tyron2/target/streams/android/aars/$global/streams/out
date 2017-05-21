@@ -1,4 +1,11 @@
 [debug] aars in subprojects: Set()
+<<<<<<< HEAD
+=======
+[info] Unpacking aar: appcompat-v7-24.0.0.aar to com.android.support-appcompat-v7-24.0.0
+[info] Unpacking aar: support-v4-24.0.0.aar to com.android.support-support-v4-24.0.0
+[info] Unpacking aar: support-vector-drawable-24.0.0.aar to com.android.support-support-vector-drawable-24.0.0
+[info] Unpacking aar: animated-vector-drawable-24.0.0.aar to com.android.support-animated-vector-drawable-24.0.0
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 [debug] Excluding testing dependency: com.android.support.test:runner:0.5:androidTest
 [debug] Excluding testing dependency: com.android.support.test:exposed-instrumentation-api-publish:0.5:androidTest
 [debug] Excluding testing dependency: com.android.support.test.espresso:espresso-core:2.2.2:androidTest

@@ -4,7 +4,11 @@
 		module="tyron2$sources_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
+<<<<<<< HEAD
 		publication="20170522013742"
+=======
+		publication="20170520002704"
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

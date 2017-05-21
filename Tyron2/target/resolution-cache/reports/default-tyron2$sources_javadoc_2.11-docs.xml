@@ -7,7 +7,11 @@
 		revision="0.1-SNAPSHOT"
 		conf="docs"
 		confs="compile, runtime, test, provided, optional, androidTest, android-internal, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+<<<<<<< HEAD
 		date="20170522013743"/>
+=======
+		date="20170520003439"/>
+>>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
 	<dependencies>
 	</dependencies>
 </ivy-report>
