@@ -3,7 +3,7 @@
       package="com.launcher.test">
     <application android:label="tyron"
                  android:icon="@android:drawable/ic_menu_gallery">
-        <activity android:name="MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

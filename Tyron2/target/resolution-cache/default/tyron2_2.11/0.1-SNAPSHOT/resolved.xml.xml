@@ -4,11 +4,7 @@
 		module="tyron2_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-<<<<<<< HEAD
-		publication="20170522012650"
-=======
-		publication="20170520002433"
->>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
+		publication="20170522032535"
 	>
 		<description>
 		tyron2

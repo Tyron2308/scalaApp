@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/tyron/Desktop/Work/scalaApp/Tyron2/target/android/intermediates/res/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/tyron/.android/sbt/exploded-aars/com.android.support-appcompat-v7-24.0.0/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/tyron/Desktop/Work/scalaApp/Tyron2/target/android/intermediates/res/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/tyron/.android/sbt/exploded-aars/com.android.support-appcompat-v7-24.0.0/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

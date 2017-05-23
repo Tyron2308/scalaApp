@@ -4,15 +4,9 @@
     <profile name="SBT 1" modules="tyron2">
       <parameters>
         <parameter value="-bootclasspath" />
-<<<<<<< HEAD
         <parameter value="$USER_HOME$/Android/Sdk/platforms/android-25/android.jar" />
         <parameter value="-javabootclasspath" />
         <parameter value="$USER_HOME$/Android/Sdk/platforms/android-25/android.jar" />
-=======
-        <parameter value="C:\Users\Julien\AppData\Local\Android\Sdk\platforms\android-25\android.jar" />
-        <parameter value="-javabootclasspath" />
-        <parameter value="C:\Users\Julien\AppData\Local\Android\Sdk\platforms\android-25\android.jar" />
->>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
       </parameters>
     </profile>
   </component>

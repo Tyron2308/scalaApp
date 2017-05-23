@@ -1,7 +1,3 @@
-[debug] Other repositories:
-[debug] Default repositories:
-[debug] Using inline dependencies specified in Scala.
-<<<<<<< HEAD
-=======
-[debug] Using inline dependencies specified in Scala.
->>>>>>> ebe56ad9e7d4bc533dcbc9744b551a77d412f859
+[0m[[0mdebug[0m] [0mOther repositories:[0m
+[0m[[0mdebug[0m] [0mDefault repositories:[0m
+[0m[[0mdebug[0m] [0mUsing inline dependencies specified in Scala.[0m

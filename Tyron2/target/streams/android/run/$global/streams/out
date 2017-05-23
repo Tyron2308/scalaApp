@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0mRunning on SM-J510FN (05ead4e8)...[0m
+[0m[[0mdebug[0m] [0mExecuting [am start  -n com.example.myapplication/com.example.myapplication.MainActivity][0m
+[0m[[0minfo[0m] [0mStarting: Intent { cmp=com.example.myapplication/.MainActivity }[0m
+[0m[[0mdebug[0m] [0mrun command executed[0m

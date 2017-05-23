@@ -1,6 +1,8 @@
 package com.example.myapplication;
 
 import java.io.IOException;
+
+import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -10,6 +12,8 @@ import android.hardware.Camera.CameraInfo;
 import android.media.CamcorderProfile;
 import android.media.MediaRecorder;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.view.OrientationEventListener;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -21,36 +25,95 @@ import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
+final class PermissionAsker {
+
+    public  static final int PERMISSIONS_MULTIPLE_REQUEST = 123;
+    public static boolean askforPermission(Activity mActivity) {
+        if (ContextCompat.checkSelfPermission(mActivity, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                != PackageManager.PERMISSION_GRANTED
+                || ContextCompat.checkSelfPermission(mActivity, Manifest.permission.RECORD_AUDIO)
+                != PackageManager.PERMISSION_GRANTED
+                || ContextCompat.checkSelfPermission(mActivity, Manifest.permission.CAMERA)
+                != PackageManager.PERMISSION_GRANTED) {
+            if (ActivityCompat.shouldShowRequestPermissionRationale(mActivity, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                    || ActivityCompat.shouldShowRequestPermissionRationale(mActivity, Manifest.permission.RECORD_AUDIO)
+                    || ActivityCompat.shouldShowRequestPermissionRationale(mActivity, Manifest.permission.CAMERA)) {
+
+                Toast.makeText(mActivity, " lol tu as besoin de ses perms ", Toast.LENGTH_LONG).show();
+                return true;
+
+            } else {
+                ActivityCompat.requestPermissions(mActivity,
+                        new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                                Manifest.permission.RECORD_AUDIO,
+                                Manifest.permission.CAMERA},
+                        PERMISSIONS_MULTIPLE_REQUEST);
+                return true;
+            }
+        }
+        return false;
+    }
+
+}
 
 public class AndroidVideoCaptureExample extends Activity {
-    public final static String LOG = "TAG";
-    private Camera mCamera;
-    private CameraPreview mPreview;
-    private MediaRecorder mediaRecorder;
-    private Button capture, switchCamera;
-    private Context myContext;
-    private LinearLayout cameraPreview;
-    private boolean cameraFront = false;
 
-    public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
-        private SurfaceHolder mHolder;
-        private Camera mCamera;
+    public final static String  LOG = "TAG";
+    private Camera              mCamera;
+    private CameraPreview       mPreview;
+    private MediaRecorder       mediaRecorder;
+    private Button              capture, switchCamera;
+    private Context             myContext;
+    private LinearLayout        cameraPreview;
+    private boolean             cameraFront = false;
+    private boolean             recording = false;
+
+    OnClickListener captrureListener = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            if (recording) {
+                // stop recording and release camera
+                mediaRecorder.stop(); // stop the recording
+                releaseMediaRecorder(); // release the MediaRecorder object
+                Toast.makeText(AndroidVideoCaptureExample.this, "Video captured!", Toast.LENGTH_LONG).show();
+                recording = false;
+            } else {
+                if (!prepareMediaRecorder()) {
+                    Toast.makeText(AndroidVideoCaptureExample.this, "Fail in prepareMediaRecorder()!\n - Ended -", Toast.LENGTH_LONG).show();
+                    finish();
+                }
+                runOnUiThread(new Runnable() {
+                    public void run() {
+                        try {
+                            mediaRecorder.start();
+                        } catch (final Exception ex) {
+                             Log.i("---","Exception in thread");
+                        }
+                    }
+                });
+
+                recording = true;
+            }
+        }
+    };
+
+    private class CameraPreview extends SurfaceView implements SurfaceHolder.Callback {
+        private SurfaceHolder   mHolder;
+        private Camera          mCamera;
 
         public CameraPreview(Context context, Camera camera) {
             super(context);
             mCamera = camera;
             mHolder = getHolder();
             mHolder.addCallback(this);
+
             // deprecated setting, but required on Android versions prior to 3.0
             mHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
         }
 
         public void surfaceCreated(SurfaceHolder holder) {
             try {
-                // create the surface and start camera preview
                 if (mCamera == null) {
-
-
                     mCamera.setPreviewDisplay(holder);
                     mCamera.startPreview();
                 }
@@ -92,15 +155,12 @@ public class AndroidVideoCaptureExample extends Activity {
         }
 
         public void setCamera(Camera camera) {
-            //method to set a camera instance
             mCamera = camera;
         }
 
         @Override
         public void surfaceDestroyed(SurfaceHolder holder) {
-            // TODO Auto-generated method stub
-            // mCamera.release();
-
+            //super.surfaceDestroyed(holder)
         }
     }
 
@@ -108,15 +168,17 @@ public class AndroidVideoCaptureExample extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         Log.e(LOG, "ON CREATE");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+            PermissionAsker.askforPermission(this);
+
+
+       // setContentView(R.layout.activity_main);
+       // getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         myContext = this;
-        initialize();
+        //initialize();
     }
 
     private int findFrontFacingCamera() {
         int cameraId = -1;
-        // Search for the front facing camera
         int numberOfCameras = Camera.getNumberOfCameras();
         for (int i = 0; i < numberOfCameras; i++) {
             CameraInfo info = new CameraInfo();
@@ -133,10 +195,7 @@ public class AndroidVideoCaptureExample extends Activity {
 
     private int findBackFacingCamera() {
         int cameraId = -1;
-        // Search for the back facing camera
-        // get the number of cameras
         int numberOfCameras = Camera.getNumberOfCameras();
-        // for every camera check
         for (int i = 0; i < numberOfCameras; i++) {
             CameraInfo info = new CameraInfo();
             Camera.getCameraInfo(i, info);
@@ -236,39 +295,6 @@ public class AndroidVideoCaptureExample extends Activity {
         switchCamera.setOnClickListener(captrureListener);
     }
 
-    boolean recording = false;
-    OnClickListener captrureListener = new OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            if (recording) {
-                // stop recording and release camera
-                mediaRecorder.stop(); // stop the recording
-                releaseMediaRecorder(); // release the MediaRecorder object
-                Toast.makeText(AndroidVideoCaptureExample.this, "Video captured!", Toast.LENGTH_LONG).show();
-                recording = false;
-            } else {
-                if (!prepareMediaRecorder()) {
-                    Toast.makeText(AndroidVideoCaptureExample.this, "Fail in prepareMediaRecorder()!\n - Ended -", Toast.LENGTH_LONG).show();
-                    finish();
-                }
-                // work on UiThread for better performance
-                runOnUiThread(new Runnable() {
-                    public void run() {
-                        // If there are stories, add them to the table
-
-                        try {
-                            mediaRecorder.start();
-                        } catch (final Exception ex) {
-                            // Log.i("---","Exception in thread");
-                        }
-                    }
-                });
-
-                recording = true;
-            }
-        }
-    };
-
     private void releaseMediaRecorder() {
         if (mediaRecorder != null) {
             mediaRecorder.reset(); // clear recorder configuration
@@ -320,8 +346,7 @@ public class AndroidVideoCaptureExample extends Activity {
         // stop and release camera
         if (mCamera != null) {
             mCamera.release();
-            mCamera = null;
-        }
+            mCamera = null;}
         }
 }
 
