@@ -27,8 +27,8 @@ object TR {
 
 
   object drawable {
-    final val waving_scala_android = TypedRes[TypedResource.ResDrawable](R.drawable.waving_scala_android)
     final val scala_android = TypedRes[TypedResource.ResDrawable](R.drawable.scala_android)
+    final val waving_scala_android = TypedRes[TypedResource.ResDrawable](R.drawable.waving_scala_android)
   }
   object string {
     final val app_name = TypedRes[TypedResource.ResString](R.string.app_name)

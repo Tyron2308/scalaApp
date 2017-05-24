@@ -1,64 +1,64 @@
-[0m[[0mdebug[0m] [0mLoading library manifest /home/tyron/.android/sbt/exploded-aars/com.android.support-appcompat-v7-24.0.0/AndroidManifest.xml[0m
-[0m[[0mdebug[0m] [0mLoading library manifest /home/tyron/.android/sbt/exploded-aars/com.android.support-support-v4-24.0.0/AndroidManifest.xml[0m
-[0m[[0mdebug[0m] [0mLoading library manifest /home/tyron/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-24.0.0/AndroidManifest.xml[0m
-[0m[[0mdebug[0m] [0mLoading library manifest /home/tyron/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-24.0.0/AndroidManifest.xml[0m
-[0m[[0mdebug[0m] [0mMerging main manifest /home/tyron/Desktop/Work/scalaApp/Tyron2/src/main/AndroidManifest.xml[0m
-[0m[[0mdebug[0m] [0mMerging library manifest /home/tyron/.android/sbt/exploded-aars/com.android.support-appcompat-v7-24.0.0/AndroidManifest.xml[0m
-[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/tyron/.android/sbt/exploded-aars/com.android.support-appcompat-v7-24.0.0] AndroidManifest.xml:17:1-27:12[0m
-[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
-[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/tyron/.android/sbt/exploded-aars/com.android.support-appcompat-v7-24.0.0] AndroidManifest.xml:21:5-23:78[0m
-[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
-[0m[[0mdebug[0m] [0mMerging application with lower [/home/tyron/.android/sbt/exploded-aars/com.android.support-appcompat-v7-24.0.0] AndroidManifest.xml:25:5-20[0m
-[0m[[0mdebug[0m] [0mMerging library manifest /home/tyron/.android/sbt/exploded-aars/com.android.support-support-v4-24.0.0/AndroidManifest.xml[0m
-[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/tyron/.android/sbt/exploded-aars/com.android.support-support-v4-24.0.0] AndroidManifest.xml:17:1-27:12[0m
-[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
-[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/tyron/.android/sbt/exploded-aars/com.android.support-support-v4-24.0.0] AndroidManifest.xml:21:5-23:54[0m
-[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
-[0m[[0mdebug[0m] [0mMerging application with lower [/home/tyron/.android/sbt/exploded-aars/com.android.support-support-v4-24.0.0] AndroidManifest.xml:25:5-20[0m
-[0m[[0mdebug[0m] [0mMerging library manifest /home/tyron/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-24.0.0/AndroidManifest.xml[0m
-[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/tyron/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-24.0.0] AndroidManifest.xml:17:1-25:12[0m
-[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
-[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/tyron/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-24.0.0] AndroidManifest.xml:21:5-43[0m
-[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
-[0m[[0mdebug[0m] [0mMerging application with lower [/home/tyron/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-24.0.0] AndroidManifest.xml:23:5-20[0m
-[0m[[0mdebug[0m] [0mMerging library manifest /home/tyron/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-24.0.0/AndroidManifest.xml[0m
-[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/tyron/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-24.0.0] AndroidManifest.xml:17:1-24:12[0m
-[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
-[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/tyron/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-24.0.0] AndroidManifest.xml:20:5-44[0m
-[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
-[0m[[0mdebug[0m] [0mMerging application with lower [/home/tyron/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-24.0.0] AndroidManifest.xml:22:5-20[0m
-[0m[[0mdebug[0m] [0mMerging result:SUCCESS[0m
-[0m[[0mdebug[0m] [0m1<?xml version="1.0" encoding="utf-8"?>[0m
-[0m[[0mdebug[0m] [0m2<manifest xmlns:android="http://schemas.android.com/apk/res/android"[0m
-[0m[[0mdebug[0m] [0m3    package="com.launcher.test"[0m
-[0m[[0mdebug[0m] [0m4    android:versionCode="1"[0m
-[0m[[0mdebug[0m] [0m5    android:versionName="0.1-SNAPSHOT" >[0m
-[0m[[0mdebug[0m] [0m6[0m
-[0m[[0mdebug[0m] [0m7    <uses-sdk[0m
-[0m[[0mdebug[0m] [0m8        android:minSdkVersion="19"[0m
-[0m[[0mdebug[0m] [0m9        android:targetSdkVersion="25" />[0m
-[0m[[0mdebug[0m] [0m10[0m
-[0m[[0mdebug[0m] [0m11    <application[0m
-[0m[[0mdebug[0m] [0m11-->/home/tyron/Desktop/Work/scalaApp/Tyron2/src/main/AndroidManifest.xml:4:5-12:19[0m
-[0m[[0mdebug[0m] [0m12        android:icon="@android:drawable/ic_menu_gallery"[0m
-[0m[[0mdebug[0m] [0m12-->/home/tyron/Desktop/Work/scalaApp/Tyron2/src/main/AndroidManifest.xml:5:18-66[0m
-[0m[[0mdebug[0m] [0m13        android:label="tyron" >[0m
-[0m[[0mdebug[0m] [0m13-->/home/tyron/Desktop/Work/scalaApp/Tyron2/src/main/AndroidManifest.xml:4:18-39[0m
-[0m[[0mdebug[0m] [0m14        <activity android:name="com.launcher.test.MainActivity" >[0m
-[0m[[0mdebug[0m] [0m14-->/home/tyron/Desktop/Work/scalaApp/Tyron2/src/main/AndroidManifest.xml:6:9-11:20[0m
-[0m[[0mdebug[0m] [0m14-->/home/tyron/Desktop/Work/scalaApp/Tyron2/src/main/AndroidManifest.xml:6:19-47[0m
-[0m[[0mdebug[0m] [0m15            <intent-filter>[0m
-[0m[[0mdebug[0m] [0m15-->/home/tyron/Desktop/Work/scalaApp/Tyron2/src/main/AndroidManifest.xml:7:13-10:29[0m
-[0m[[0mdebug[0m] [0m16                <action android:name="android.intent.action.MAIN" />[0m
-[0m[[0mdebug[0m] [0m16-->/home/tyron/Desktop/Work/scalaApp/Tyron2/src/main/AndroidManifest.xml:8:17-69[0m
-[0m[[0mdebug[0m] [0m16-->/home/tyron/Desktop/Work/scalaApp/Tyron2/src/main/AndroidManifest.xml:8:25-66[0m
-[0m[[0mdebug[0m] [0m17[0m
-[0m[[0mdebug[0m] [0m18                <category android:name="android.intent.category.LAUNCHER" />[0m
-[0m[[0mdebug[0m] [0m18-->/home/tyron/Desktop/Work/scalaApp/Tyron2/src/main/AndroidManifest.xml:9:17-77[0m
-[0m[[0mdebug[0m] [0m18-->/home/tyron/Desktop/Work/scalaApp/Tyron2/src/main/AndroidManifest.xml:9:27-74[0m
-[0m[[0mdebug[0m] [0m19            </intent-filter>[0m
-[0m[[0mdebug[0m] [0m20        </activity>[0m
-[0m[[0mdebug[0m] [0m21    </application>[0m
-[0m[[0mdebug[0m] [0m22[0m
-[0m[[0mdebug[0m] [0m23</manifest>[0m
-[0m[[0mdebug[0m] [0mMerged manifest saved to /home/tyron/Desktop/Work/scalaApp/Tyron2/target/android/intermediates/manifest/AndroidManifest.xml[0m
+[debug] Loading library manifest C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-appcompat-v7-24.0.0\AndroidManifest.xml
+[debug] Loading library manifest C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-support-v4-24.0.0\AndroidManifest.xml
+[debug] Loading library manifest C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-support-vector-drawable-24.0.0\AndroidManifest.xml
+[debug] Loading library manifest C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-animated-vector-drawable-24.0.0\AndroidManifest.xml
+[debug] Merging main manifest C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\src\main\AndroidManifest.xml
+[debug] Merging library manifest C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-appcompat-v7-24.0.0\AndroidManifest.xml
+[debug] Merging manifest with lower [C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-appcompat-v7-24.0.0] AndroidManifest.xml:17:1-27:12
+[debug] uses-sdk defined in both files...
+[debug] Merging uses-sdk with lower [C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-appcompat-v7-24.0.0] AndroidManifest.xml:21:5-23:78
+[debug] application defined in both files...
+[debug] Merging application with lower [C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-appcompat-v7-24.0.0] AndroidManifest.xml:25:5-20
+[debug] Merging library manifest C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-support-v4-24.0.0\AndroidManifest.xml
+[debug] Merging manifest with lower [C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-support-v4-24.0.0] AndroidManifest.xml:17:1-27:12
+[debug] uses-sdk defined in both files...
+[debug] Merging uses-sdk with lower [C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-support-v4-24.0.0] AndroidManifest.xml:21:5-23:54
+[debug] application defined in both files...
+[debug] Merging application with lower [C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-support-v4-24.0.0] AndroidManifest.xml:25:5-20
+[debug] Merging library manifest C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-support-vector-drawable-24.0.0\AndroidManifest.xml
+[debug] Merging manifest with lower [C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-support-vector-drawable-24.0.0] AndroidManifest.xml:17:1-25:12
+[debug] uses-sdk defined in both files...
+[debug] Merging uses-sdk with lower [C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-support-vector-drawable-24.0.0] AndroidManifest.xml:21:5-43
+[debug] application defined in both files...
+[debug] Merging application with lower [C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-support-vector-drawable-24.0.0] AndroidManifest.xml:23:5-20
+[debug] Merging library manifest C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-animated-vector-drawable-24.0.0\AndroidManifest.xml
+[debug] Merging manifest with lower [C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-animated-vector-drawable-24.0.0] AndroidManifest.xml:17:1-24:12
+[debug] uses-sdk defined in both files...
+[debug] Merging uses-sdk with lower [C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-animated-vector-drawable-24.0.0] AndroidManifest.xml:20:5-44
+[debug] application defined in both files...
+[debug] Merging application with lower [C:\Users\Jsweb Stage1\.android\sbt\exploded-aars\com.android.support-animated-vector-drawable-24.0.0] AndroidManifest.xml:22:5-20
+[debug] Merging result:SUCCESS
+[debug] 1<?xml version="1.0" encoding="utf-8"?>
+[debug] 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+[debug] 3    package="com.launcher.test"
+[debug] 4    android:versionCode="1"
+[debug] 5    android:versionName="0.1-SNAPSHOT" >
+[debug] 6
+[debug] 7    <uses-sdk
+[debug] 8        android:minSdkVersion="19"
+[debug] 9        android:targetSdkVersion="25" />
+[debug] 10
+[debug] 11    <application
+[debug] 11-->C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\src\main\AndroidManifest.xml:4:5-13:19
+[debug] 12        android:icon="@android:drawable/ic_menu_gallery"
+[debug] 12-->C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\src\main\AndroidManifest.xml:5:18-66
+[debug] 13        android:label="@string/app_name" >
+[debug] 13-->C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\src\main\AndroidManifest.xml:4:18-50
+[debug] 14        <activity android:name="com.launcher.test.MainActivity" >
+[debug] 14-->C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\src\main\AndroidManifest.xml:6:9-11:20
+[debug] 14-->C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\src\main\AndroidManifest.xml:6:19-47
+[debug] 15            <intent-filter>
+[debug] 15-->C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\src\main\AndroidManifest.xml:7:13-10:29
+[debug] 16                <action android:name="android.intent.action.MAIN" />
+[debug] 16-->C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\src\main\AndroidManifest.xml:8:17-69
+[debug] 16-->C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\src\main\AndroidManifest.xml:8:25-66
+[debug] 17
+[debug] 18                <category android:name="android.intent.category.LAUNCHER" />
+[debug] 18-->C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\src\main\AndroidManifest.xml:9:17-77
+[debug] 18-->C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\src\main\AndroidManifest.xml:9:27-74
+[debug] 19            </intent-filter>
+[debug] 20        </activity>
+[debug] 21    </application>
+[debug] 22
+[debug] 23</manifest>
+[debug] Merged manifest saved to C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\target\android\intermediates\manifest\AndroidManifest.xml

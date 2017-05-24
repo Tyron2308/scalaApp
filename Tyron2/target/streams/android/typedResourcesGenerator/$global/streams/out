@@ -1,2 +1,2 @@
-[0m[[0minfo[0m] [0mRegenerating TR.scala because R.java has changed[0m
-[0m[[0mdebug[0m] [0mLayouts: ArrayBuffer(/home/tyron/Desktop/Work/scalaApp/Tyron2/src/main/res/layout/main.xml)[0m
+[info] Regenerating TR.scala because R.java has changed
+[debug] Layouts: ArrayBuffer(C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\src\main\res\layout\main.xml)

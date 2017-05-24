@@ -3,7 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Tyron2.iml" filepath="$PROJECT_DIR$/Tyron2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.android.support-animated-vector-drawable-24.0.0.iml" filepath="$PROJECT_DIR$/.idea/modules/com.android.support-animated-vector-drawable-24.0.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.android.support-animated-vector-drawable-24.0.0-build.iml" filepath="$PROJECT_DIR$/.idea/modules/com.android.support-animated-vector-drawable-24.0.0-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.android.support-appcompat-v7-24.0.0.iml" filepath="$PROJECT_DIR$/.idea/modules/com.android.support-appcompat-v7-24.0.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.android.support-appcompat-v7-24.0.0-build.iml" filepath="$PROJECT_DIR$/.idea/modules/com.android.support-appcompat-v7-24.0.0-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.android.support-support-v4-24.0.0.iml" filepath="$PROJECT_DIR$/.idea/modules/com.android.support-support-v4-24.0.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.android.support-support-v4-24.0.0-build.iml" filepath="$PROJECT_DIR$/.idea/modules/com.android.support-support-v4-24.0.0-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.android.support-support-vector-drawable-24.0.0.iml" filepath="$PROJECT_DIR$/.idea/modules/com.android.support-support-vector-drawable-24.0.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.android.support-support-vector-drawable-24.0.0-build.iml" filepath="$PROJECT_DIR$/.idea/modules/com.android.support-support-vector-drawable-24.0.0-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tyron2.iml" filepath="$PROJECT_DIR$/.idea/modules/tyron2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tyron2-build.iml" filepath="$PROJECT_DIR$/.idea/modules/tyron2-build.iml" />
     </modules>
   </component>
 </project>

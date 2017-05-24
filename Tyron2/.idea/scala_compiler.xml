@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="SBT 1" modules="tyron2">
+    <profile name="SBT 2" modules="com.android.support-animated-vector-drawable-24.0.0,com.android.support-appcompat-v7-24.0.0,com.android.support-support-v4-24.0.0,com.android.support-support-vector-drawable-24.0.0,tyron2">
+      <option name="deprecationWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
       <parameters>
+        <parameter value="-target:jvm-1.7" />
         <parameter value="-bootclasspath" />
-        <parameter value="$USER_HOME$/Android/Sdk/platforms/android-25/android.jar" />
+        <parameter value="C:\Android\sdk\platforms\android-25\android.jar" />
         <parameter value="-javabootclasspath" />
-        <parameter value="$USER_HOME$/Android/Sdk/platforms/android-25/android.jar" />
+        <parameter value="C:\Android\sdk\platforms\android-25\android.jar" />
       </parameters>
     </profile>
   </component>

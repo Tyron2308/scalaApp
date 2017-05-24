@@ -5,16 +5,10 @@ import android.content.Context
 import android.os.Bundle
 import android.graphics.drawable.Animatable
 import android.widget.Toast
-//import org.apache.spark.SparkConf
-//import org.apache.spark.SparkContext
-//import org.apache.spark.SparkContext._
+import android.content.Intent
+import com.example.myapplication.AndroidVideoCaptureExample
 
-object main {
-    def main(args: Array[String]): Unit = {
-        println("tristeess");
-    }
-}
-/*
+
 
 class MainActivity extends Activity {
     // allows accessing `.value` on TR.resource.constants
@@ -28,12 +22,8 @@ class MainActivity extends Activity {
         val toast = Toast.makeText(context, text, duration);
         toast.show();
 
- //     val conf = new;
-   //   SparkConf().setMaster("local").setAppName("My App");
-     // val sc = new SparkContext(conf);
-
-     // AndroidRecord
+        val intent = new Intent(this, classOf[AndroidVideoCaptureExanple]);
         println("tristeess");
     }
 
-}*/
+}

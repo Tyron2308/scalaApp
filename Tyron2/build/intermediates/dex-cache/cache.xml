@@ -2,112 +2,40 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/home/tyron/.android/build-cache/3037d5fd3b0beecdc890e32884a7d87cfae02ef6/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/home/tyron/Desktop/Work/scalaApp/Tyron2/myapplication/build/intermediates/pre-dexed/debug/classes_2842ec61b0f2df39bd177caac3429f5cfc92fde1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/tyron/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/home/tyron/Desktop/Work/scalaApp/Tyron2/myapplication/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_0832d3f9995b8826a0c2804279024d8ad7f10e96.jar" />
+        <dex dex="C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\myapplication\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_dce0f5dc4ec87302d879250c45fe5f3f72f02917\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/tyron/.android/build-cache/340dcc438904b0147c70975c7e8d74e11412f81f/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/tyron/Desktop/Work/scalaApp/Tyron2/myapplication/build/intermediates/pre-dexed/debug/classes_bab2b6aaf3969cb12cfbc5a91841f8198fbc59dc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/tyron/.android/build-cache/36b8a90c102b921b1c97fc22446d5d04bcd1c4ef/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="/home/tyron/Desktop/Work/scalaApp/Tyron2/myapplication/build/intermediates/pre-dexed/debug/classes_16b564e04e9c88590a811c079362e340ab33d1df.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/tyron/.android/build-cache/1d790d0b38937bcc38eed88d7dcc4f8e1834dc09/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/home/tyron/Desktop/Work/scalaApp/Tyron2/myapplication/build/intermediates/pre-dexed/debug/classes_612017f992cdd708496183a11a8f18a1346848e9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/tyron/.android/build-cache/0b44e4fd29b8f9974130caf4eb0bee67e7fd347a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="/home/tyron/Desktop/Work/scalaApp/Tyron2/myapplication/build/intermediates/pre-dexed/debug/classes_d40736ac407af938efffcb4307bde78dc8c57fc4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/tyron/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="/home/tyron/Desktop/Work/scalaApp/Tyron2/myapplication/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_306faf59a0f081fae3808b90bc75f9e3cc3f0f71.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/tyron/.android/build-cache/eb19b88ebe1eb7a934fe4b93df5704d92349867a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/home/tyron/Desktop/Work/scalaApp/Tyron2/myapplication/build/intermediates/pre-dexed/debug/classes_eb1706fc0663ad62f469b059eb7b0e3ae79a37d4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/tyron/.android/build-cache/28b8e85e4e3675d9e840a85cb81a3b810613c95a/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Jsweb Stage1\.android\build-cache\a96f773d78275e90f5b45811e6995a85d5b8f21f\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/home/tyron/Desktop/Work/scalaApp/Tyron2/myapplication/build/intermediates/pre-dexed/debug/classes_ea6d99d684d74c94ee49693ba0ea9c1573e4f71c.jar" />
+        <dex dex="C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\myapplication\build\intermediates\transforms\dex\debug\folders\1000\10\classes_293517bdb4c15789ac742d7577a55b97c3b47895\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/tyron/.android/build-cache/200cf52a54a0e09717e4c2f6dab6a75b2495943c/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\myapplication\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/home/tyron/Desktop/Work/scalaApp/Tyron2/myapplication/build/intermediates/pre-dexed/debug/classes_216098a734994b844040c86cd048fab8e58eca3c.jar" />
+        sha1="1071e4fd544703fde66249735afe8efb7eecd8f9">
+        <dex dex="C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\myapplication\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_113c4f811e39ed647f7a275dd0ba0a9a68f8bafb\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/tyron/.android/build-cache/ce1ea84a32584702927e688ca720ea6ad0903332/output/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\myapplication\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/home/tyron/Desktop/Work/scalaApp/Tyron2/myapplication/build/intermediates/pre-dexed/debug/classes_dc8a4dd25e9a9c0c14ee1e8258d35b9afd3a819d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/tyron/.android/build-cache/91a63cfb4bfce4f4cdd3ed8c94e7988986a6fbb4/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="/home/tyron/Desktop/Work/scalaApp/Tyron2/myapplication/build/intermediates/pre-dexed/debug/classes_da34d63aafafb792814f22d59b11905fbbaf742b.jar" />
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="C:\Users\Jsweb Stage1\Desktop\Work\WorkPers\scalaApp\Tyron2\myapplication\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2b8169abcc2b33397ab5805788737a2c3bb95161\classes.dex" />
     </item>
 
 </items>

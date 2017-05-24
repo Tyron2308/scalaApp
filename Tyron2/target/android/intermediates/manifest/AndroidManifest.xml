@@ -10,7 +10,7 @@
 
     <application
         android:icon="@android:drawable/ic_menu_gallery"
-        android:label="tyron" >
+        android:label="@string/app_name" >
         <activity android:name="com.launcher.test.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

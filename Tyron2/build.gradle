@@ -1,8 +1,10 @@
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
         jcenter()
     }
+
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.2'
     }
@@ -17,3 +19,43 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+/*
+buildscript {
+    repositories {
+        jcenter()
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.2'
+        classpath "jp.leafytree.gradle:gradle-android-scala-plugin:1.4"
+    }
+}
+
+apply plugin: "com.android.application"
+apply plugin: "jp.leafytree.android-scala"
+
+android {
+    defaultConfig {
+        testInstrumentationRunner "com.android.test.runner.MultiDexTestRunner"
+    }
+    sourceSets {
+        main {
+            scala {
+                srcDir "path/to/main/scala" // default: "src/main/scala"
+            }
+        }
+
+        androidTest {
+            scala {
+                srcDir "path/to/androidTest/scala" // default: "src/androidTest/scala"
+            }
+        }
+    }
+}
+
+dependencies {
+
+    compile "org.scala-lang:scala-library:2.11.7"
+    compile "com.android.support:multidex:1.0.1"
+    androidTestCompile "com.android.support:multidex-instrumentation:1.0.1", { exclude module: "multidex" }
+}*/

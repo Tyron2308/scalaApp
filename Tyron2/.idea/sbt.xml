@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaSbtSettings">
+    <option name="customLauncherPath" value="C:\Users\Jsweb Stage1\.android\sbt" />
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
         <option name="createEmptyContentRootDirectories" value="true" />
@@ -8,16 +9,24 @@
         <option name="jdk" value="Android API 25 Platform" />
         <option name="modules">
           <set>
+            <option value="$USER_HOME$/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-24.0.0" />
+            <option value="$USER_HOME$/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-24.0.0/project" />
+            <option value="$USER_HOME$/.android/sbt/exploded-aars/com.android.support-appcompat-v7-24.0.0" />
+            <option value="$USER_HOME$/.android/sbt/exploded-aars/com.android.support-appcompat-v7-24.0.0/project" />
+            <option value="$USER_HOME$/.android/sbt/exploded-aars/com.android.support-support-v4-24.0.0" />
+            <option value="$USER_HOME$/.android/sbt/exploded-aars/com.android.support-support-v4-24.0.0/project" />
+            <option value="$USER_HOME$/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-24.0.0" />
+            <option value="$USER_HOME$/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-24.0.0/project" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/project" />
           </set>
         </option>
-        <option name="resolveJavadocs" value="true" />
         <option name="resolveSbtClassifiers" value="true" />
-        <option name="sbtVersion" value="0.13.15" />
+        <option name="sbtVersion" value="0.13.13" />
         <option name="useAutoImport" value="true" />
         <option name="useOurOwnAutoImport" value="true" />
       </SbtProjectSettings>
     </option>
+    <option name="maximumHeapSize" value="756" />
   </component>
 </project>
